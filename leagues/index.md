@@ -7,7 +7,7 @@ tags: [Jekyll, theme, responsive, blog, template]
 
 <h1>All of the team communication and game information in one place</h1>
 
-<p>We help you run a better league: keeping players in-the-loop, more engaged off-the-field and happier overall. Mitoo requires almost no setup: we work with any league tool and pull in your schedules automatically.</p>
+<p>Run the best league: keeping players in-the-loop, more engaged off-the-field and happier overall. Mitoo requires almost no setup: we work with any league tool and pull in your schedules automatically.</p>
 
 
 ## Keep players in-the-loop
@@ -30,13 +30,42 @@ Get discovered by new players in your area with our Local Sports listing, hundre
 
 # How?
 
-We've made Mitoo to integrate with your league with minimal setup. You don't need to change you day-to-day. No new tool to learn, we integrate with whatever you're using seemlessly.
+We've made Mitoo to integrate with your league with minimal setup. There's no new tool to learn and no need to change what you do day-to-day. We just save you time.
 
-We've designed mitoo to work with any league scheduling tool seemlessly.
+[See what league tools we work with](/leagues/how-it-works)
 
 
 # How can I trust you?
 
 We have hundred's of leagues using our platform.
 
-[Featured Leagues]
+* Social Leagues: Play Mile High
+* WAKA
+* Grand Rapids Sports & Social
+* Play Soccer Miami
+* Premier Social Sports
+* Beehive Sports & Social
+* LTS Chicago
+* Sports Monkey
+* Social Boston Sports
+* Tri-Sports
+* Play More Sport & Social Club
+* Athens Community Soccer
+* Savannah Adult Rec
+* NLA Sports
+
+
+# League Stories
+
+* [Social Leagues: How to reduces drop-outs and improve game attendance](/leagues/stories/game-attendance.html)
+* [WAKA: Are players engaged around your brand](/leagues/stories/brand-engagement.html)
+* [Grand Rapids: Save time getting key messages to captains and players](/leagues/stories/save-time-messaging.html)
+* [Play Soccer Miami: Save time keeping player up-to-date with game changes](/leagues/stories/save-time-game-updates.html)
+* [Premier Sport & Social: do players alway have access to the schedules and standings](/leagues/stories/access-schedules.html)
+
+
+# Players love us
+
+***** "The UI is beautiful. Very easy to use."
+***** "Awesome app!!!!! This app is kickass. Very useful to get in the loop for sports events."
+***** "Our team finally talks! I'm impressed by the functionality of this app. Straightforward, easy to use, easy to integrate. Kudos for the great product, recommending it."

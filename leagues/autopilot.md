@@ -23,3 +23,7 @@ Players always have access to the latest schedule, results and standings whereve
 Players can always turn off the notifications they do not want to receive.
 
 
+## Related Stories
+
+* [Play Soccer Miami: Save time keeping player up-to-date with game changes](/leagues/stories/save-time-game-updates.html)
+* [Premier Sport & Social: do players alway have access to the schedules and standings](/leagues/stories/access-schedules.html)
