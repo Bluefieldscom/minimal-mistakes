@@ -1,8 +1,8 @@
 # Site wide configuration
 
-title:            Site Title
+title:            Mitoo
 locale:           en_US
-url:
+url:              
 
 
 # Jekyll configuration
