@@ -1,26 +1,41 @@
 ---
 layout: home
-excerpt: "A minimal Jekyll theme for your blog by designer Michael Rose."
-tags: [Jekyll, theme, responsive, blog, template]
+excerpt: 
+tags: 
 ---
 
-<h1>Get discovered</h1>
+<div class="page-header"></div>
 
-## Get discovered
-How do people find your league?
+<div class="detail">
+  <section>
+    <h1>Get discovered</h1>
 
-Get discovered by players in your area with our Local Sports listing, hundred's of players can find your league and contact you.
+    <p>How do people find your league?</p>
 
-## Contact information sent directly to you
-Players can enquire about a league with just one click.
+    <p>Get discovered by players in your area with our Local Sports listing, hundred's of players can find your league and contact you.</p>
+  </section>
+</div>
 
+<div class="detail">
+  <section>
+    ## Contact information sent directly to you
+    Players can enquire about a league with just one click.
+  </section>
+</div>
 
-## Player referrals
+<div class="detail">
+  <section>
+    ## Player referrals
 
-How many people play in your league who have simply been told to be at place at a certain time by another team member. These players often do not even know the name of your league, let alone your logo.
+    How many people play in your league who have simply been told to be at place at a certain time by another team member. These players often do not even know the name of your league, let alone your logo.
 
-With mitoo, players can add people to the team conversations and they'll receive the same information as everyone else. And they'll know your league.
+    With mitoo, players can add people to the team conversations and they'll receive the same information as everyone else. And they'll know your league.
+    </section>
+</div>
 
-
-## Retention
-Give players a great experience and they'll come back for more.
+<div class="detail">
+  <section>
+    ## Retention
+    Give players a great experience and they'll come back for more.
+  </section>
+</div>

@@ -19,19 +19,3 @@
 		</nav>
 	</div><!-- /.top-navigation -->
 </div><!-- /.navigation-wrapper -->
-<div class="sub-navigation-wrapper">
-	<div class="sub-navigation">
-		<nav role="sub-navigation" id="site-nav" class="nav">
-		    <ul>
-		        {% for link in site.data.sub_navigation %}
-				    {% if link.url contains 'http' %}
-				        {% assign domain = '' %}
-				        {% else %}
-				        {% assign domain = site.url %}
-				    {% endif %}
-				    <li><a href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank"{% endif %}>{{ link.title }}</a></li>
-				{% endfor %}
-		    </ul>
-		</nav>
-	</div><!-- /.sub-navigation -->
-</div><!-- /.navigation-wrapper -->
