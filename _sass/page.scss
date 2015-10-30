@@ -412,6 +412,10 @@ p+p {
   h2, p {
     width: 470px;
 	}
+
+	p + p {
+		margin-top: 1em;
+	}
 }
 
 .detail .headline {

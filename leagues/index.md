@@ -11,13 +11,8 @@ tags:
 <div class="detail">
   <section class="headline">
     <h1>Be the best experience for players</h1>
-
     <p>Be less busy and run a successful league that players love.</p>
-</section>
-</div>
 
-<div class="detail">
-  <section>
     <div class="benefits">
       <div class="benefit">
         <h3>Keep players in-the-loop without the effort</h3>
@@ -59,15 +54,16 @@ tags:
   <section>
     <img height="200" width="40%" class="background" />
     <h2>Group messaging for the whole team</h2>
-    <p>Everybody in the team is now a part of the conversation. That's everybody, all the players in the team—even if they haven't got the app—is involed in the team conversation.</p>
-    <p>It's great for captains to keep teams organized and great for bringing players together thorugh sharing those photos and fun side of the leagues.</p>
+    <p>All of the players in one chat, where they can message each other, setup for them automatically. Even players without the app will receive email updates.</p>
+    <p>It's great for captains who need to make sure players turn-up on time. And great for sharing team photos and bringing players together off-the-field.</p>
   </section>
 </div>
 
 <div id="players-in-the-loop" class="detail">
   <section>
     <img height="200" width="40%" class="background" />
-    <h2>Game &amp; League updates wherever they are</h2>
+    <h2>Players always up-to-date</h2>
+    <p></p>
     <p>When you make updates to the schedule, players receive notifications about what's changed. This happens completely automatically.</p>
   </section>
 </div>
