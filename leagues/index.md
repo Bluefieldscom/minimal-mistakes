@@ -9,10 +9,10 @@ tags:
 </div>
 
 <div class="detail">
-  <section>
+  <section class="headline">
     <h1>Be the best experience for players</h1>
 
-    <p>Run the best league: keeping players in-the-loop, more engaged off-the-field and happier overall. Mitoo requires almost no setup: we work with any league tool and pull in your schedules automatically.</p>
+    <p>Be less busy and run a successful league that players love.</p>
 </section>
 </div>
 
@@ -20,18 +20,18 @@ tags:
   <section>
     <div class="benefits">
       <div class="benefit">
-        <h3>Keep players in-the-loop</h3>
-        <p>Players always have the latest schedule, results and standings. They get notified when things change—all without you lifting a finger!</p>
+        <h3>Keep players in-the-loop without the effort</h3>
+        <p>Automatically let players know when games get moved or results come in. Put the latest schedule, results and standings in player's hands. All without lifting a finger.</p>
         <a href="autopilot.html">Learn more about how we can save time</a>
       </div>
       <div class="benefit">
-        <h3>Reduce drop-outs and forfeits</h3>
-        <p>Conversations keep teams organised and brings players together off the field. Everyone in the team is involved.</p>
+        <h3>Reduce drop-outs and forfeits with organized teams</h3>
+        <p>Teams are more organized when players always have the latest schedule in their hand and an easy way to message the rest of the team.</p>
         <a href="messaging.html">Learn more about how to keep teams organized</a>
       </div>
       <div class="benefit">
-        <h3>Grow your league</h3>
-        <p>Get discovered by new players in your area with our Local Sports listing, hundred's of players can find your league and contact you.</p>
+        <h3>Watch your league grow with happy players</h3>
+        <p>Your league will grow as players. Players will also find your league easier through our listings</p>
         <a href="local-sports-listing.html">Learn more growing your league</a>
       </div>
     </div>
@@ -39,33 +39,36 @@ tags:
 </div>
 
 <div id="minimal-setup" class="detail">
-  <section>
+  <section class="minimal-setup">
     <h2>Works with your league tool with minimal setup</h2>
-
-    <p>Setup is easy: all that's needed is a link to your league tool. It just works—automatically updating players through the mobile app and email.</p>
-
-    <p><a href="/leagues/how-it-works">See what league tools we work with</a></p>
+    <p>Mitoo is designed to <b>work with</b> your existing tools and website <b>not as a replacement</b>.</p>
+    <p>There's minimal setup involved and we can get you up and running with a mobile experience within a few days.</p>
+    <p><a href="/leagues/how-it-works">Learn how it works</a></p>
   </section>
 </div>
 
 <div id="everything-in-one-place" class="detail">
   <section>
-    <h2>All of the game information in one place. Automatically.</h2>
-
-    <p>Players always have the latest schedule, results and standings in their hand.</p>
-
-    <p>When you make updates to the schedule, players receive notifications about what's changed. This happens completely automatically.</p>
+    <img height="200" width="40%" class="background" />
+    <h2>One place for everything. Automatically.</h2>
+    <p>From game times, locations and standings to messages from the team and league, players will always know what's going on and when.</p>
   </section>
 </div>
 
-
 <div id="group-messaging" class="detail">
   <section>
-    <h2>Give teams the best way to keep organised.</h2>
+    <img height="200" width="40%" class="background" />
+    <h2>Group messaging for the whole team</h2>
+    <p>Everybody in the team is now a part of the conversation. That's everybody, all the players in the team—even if they haven't got the app—is involed in the team conversation.</p>
+    <p>It's great for captains to keep teams organized and great for bringing players together thorugh sharing those photos and fun side of the leagues.</p>
+  </section>
+</div>
 
-    <p>Every team has a group conversation which automatically includes every player in the team.</p>
-
-    <p>Captains are in separate conversations with each other for sorting out those last-mintue </p>
+<div id="players-in-the-loop" class="detail">
+  <section>
+    <img height="200" width="40%" class="background" />
+    <h2>Game &amp; League updates wherever they are</h2>
+    <p>When you make updates to the schedule, players receive notifications about what's changed. This happens completely automatically.</p>
   </section>
 </div>
 

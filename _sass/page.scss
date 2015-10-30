@@ -396,8 +396,66 @@ p+p {
     max-width: 1014px;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
+    position: relative;
+	}
+
+  img {
+  	max-width: 100%;
+    // height: auto;
+    vertical-align: middle;
+    border: 0;
+  }
+  .background {
+  	position:absolute;
+  }
+
+  h2, p {
+    width: 470px;
 	}
 }
+
+.detail .headline {
+	h1, p {
+    width: 100%;
+	}	
+}
+
+.detail .minimal-setup {
+	h2, p {
+    width: 100%;
+	}	
+}
+
+.detail#everything-in-one-place {
+	section {
+		padding-left:500px;
+	}
+	.background {
+		top: -40px;
+	  left: 1.5rem;
+	}
+}
+
+.detail#group-messaging {
+	section {
+		// padding-left:500px;
+	}
+	.background {
+		top: -40px;
+	  right: 1.5rem;
+	}
+}
+
+.detail#players-in-the-loop {
+	section {
+		padding-left:500px;
+	}
+	.background {
+		top: -40px;
+	  left: 1.5rem;
+	}
+}
+
 
 .benefit {
 	width: 50%;
