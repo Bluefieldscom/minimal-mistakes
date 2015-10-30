@@ -22,46 +22,23 @@ tags:
       <div class="benefit">
         <h3>Keep players in-the-loop</h3>
         <p>Players always have the latest schedule, results and standings. They get notified when things change—all without you lifting a finger!</p>
+        <a href="autopilot.html">Learn more about how we can save time</a>
       </div>
       <div class="benefit">
         <h3>Reduce drop-outs and forfeits</h3>
         <p>Conversations keep teams organised and brings players together off the field. Everyone in the team is involved.</p>
+        <a href="messaging.html">Learn more about how to keep teams organized</a>
       </div>
       <div class="benefit">
         <h3>Grow your league</h3>
         <p>Get discovered by new players in your area with our Local Sports listing, hundred's of players can find your league and contact you.</p>
+        <a href="local-sports-listing.html">Learn more growing your league</a>
       </div>
     </div>
   </section>
 </div>
 
-<div id="how" class="detail">
-  <section>
-    <h2>All of the game information in one place. Automatically.</h2>
-
-    <p>Players always have the latest schedule, results and standings in their hand.</p>
-
-    <p>When you make updates to the schedule, players receive notifications about what's changed. This happens completely automatically.</p>
-
-    <p><a href="autopilot.html">Learn more about how we keep players in-the-loop</a></p>
-  </section>
-</div>
-
-
-<div id="how" class="detail">
-  <section>
-    <h2>Give teams the best way to keep organised.</h2>
-
-    <p>Every team has a group conversation which automatically includes every player in the team.</p>
-
-    <p>Captains are in separate conversations with each other for sorting out those last-mintue </p>
-
-    <p><a href="messaging.html">Learn more about our messaging</a></p>
-  </section>
-</div>
-
-
-<div id="how" class="detail">
+<div id="minimal-setup" class="detail">
   <section>
     <h2>Works with your league tool with minimal setup</h2>
 
@@ -71,7 +48,28 @@ tags:
   </section>
 </div>
 
-<div class="detail">
+<div id="everything-in-one-place" class="detail">
+  <section>
+    <h2>All of the game information in one place. Automatically.</h2>
+
+    <p>Players always have the latest schedule, results and standings in their hand.</p>
+
+    <p>When you make updates to the schedule, players receive notifications about what's changed. This happens completely automatically.</p>
+  </section>
+</div>
+
+
+<div id="group-messaging" class="detail">
+  <section>
+    <h2>Give teams the best way to keep organised.</h2>
+
+    <p>Every team has a group conversation which automatically includes every player in the team.</p>
+
+    <p>Captains are in separate conversations with each other for sorting out those last-mintue </p>
+  </section>
+</div>
+
+<div id="valued-leagues" class="detail">
   <section>
     <h2>Our most valued leagues</h2>
 
@@ -95,7 +93,7 @@ tags:
 
 </div>
 
-<div class="detail">
+<div id="league-stories" class="detail">
   <section>
     <h2>League Stories</h2>
 
@@ -109,7 +107,7 @@ tags:
   </section>
 </div>
 
-<div class="detail">
+<div id="players-love-us" class="detail">
   <section>
     <h2>Players love us</h2>
 
