@@ -30,41 +30,46 @@ tags:
         <a href="local-sports-listing.html">Learn more growing your league</a>
       </div>
     </div>
+
+    <div class="image_container">
+      <img src="/images/benefit_phone.png" />
+    </div>
   </section>
 </div>
 
 <div id="minimal-setup" class="detail">
   <section class="minimal-setup">
-    <h2>Works with your league tool with minimal setup</h2>
-    <p>Mitoo is designed to <b>work with</b> your existing tools and website <b>not as a replacement</b>.</p>
-    <p>There's minimal setup involved and we can get you up and running with a mobile experience within a few days.</p>
+    <h2>Works with your league tool</h2>
+    <p>Mitoo keeps track of changes <b>on your existing tools</b>. Any tool or website works! There's nothing new to learn.</p>
+    <p>Setup is easy, within a few days your players can be using our app for your league. Need any help? we're available on the phone and email.</p>
     <p><a href="/leagues/how-it-works">Learn how it works</a></p>
   </section>
 </div>
 
 <div id="everything-in-one-place" class="detail">
   <section>
-    <img height="200" width="40%" class="background" />
-    <h2>One place for everything. Automatically.</h2>
-    <p>From game times, locations and standings to messages from the team and league, players will always know what's going on and when.</p>
+    <img src="/images/one_place.png" class="background" />
+    <h2>Players have one place for everything.</h2>
+    <p>From game times, locations and standings to messages from the team and league, players have one place to look to know what's going on.</p>
+    <p></p>
   </section>
 </div>
 
 <div id="group-messaging" class="detail">
   <section>
-    <img height="200" width="40%" class="background" />
-    <h2>Group messaging for the whole team</h2>
-    <p>All of the players in one chat, where they can message each other, setup for them automatically. Even players without the app will receive email updates.</p>
+    <img src="/images/group_messaging.png" class="background" />
+    <h2>Group messaging for the whole team.</h2>
+    <p>Team chats are setup automatically—so all the players are involved. Even players without the app receive email updates.</p>
     <p>It's great for captains who need to make sure players turn-up on time. And great for sharing team photos and bringing players together off-the-field.</p>
   </section>
 </div>
 
 <div id="players-in-the-loop" class="detail">
   <section>
-    <img height="200" width="40%" class="background" />
-    <h2>Players always up-to-date</h2>
-    <p></p>
-    <p>When you make updates to the schedule, players receive notifications about what's changed. This happens completely automatically.</p>
+    <img src="/images/up_to_date.png" class="background" />
+    <h2>Players always up-to-date.</h2>
+    <p>Players are notified about important changes in real-time as they are made. Saving your staff time and keeping players organised.</p>
+    <p>Players customize their notifications to their liking.</p>
   </section>
 </div>
 

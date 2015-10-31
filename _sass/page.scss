@@ -424,6 +424,9 @@ p+p {
 	}	
 }
 
+.detail#minimal-setup {
+	background-color: #999;
+}
 .detail .minimal-setup {
 	h2, p {
     width: 100%;
@@ -431,32 +434,50 @@ p+p {
 }
 
 .detail#everything-in-one-place {
+	height: 400px;
+
 	section {
 		padding-left:500px;
 	}
 	.background {
-		top: -40px;
+		top: 50px;
 	  left: 1.5rem;
+	}
+
+	h2 {
+		padding-top: 100px;
 	}
 }
 
 .detail#group-messaging {
+	height: 400px;
+
 	section {
 		// padding-left:500px;
 	}
 	.background {
-		top: -40px;
-	  right: 1.5rem;
+		top: 40px;
+	  right: 5rem;
+	}
+
+	h2 {
+		padding-top: 80px;
 	}
 }
 
 .detail#players-in-the-loop {
+	height: 400px;
+
 	section {
 		padding-left:500px;
 	}
 	.background {
-		top: -40px;
+		top: 91px;
 	  left: 1.5rem;
+	}
+
+	h2 {
+		padding-top: 100px;
 	}
 }
 
@@ -480,6 +501,25 @@ p+p {
   p {
   	margin-bottom:0;
   }
+
+  a {
+  	margin-top: 1em;
+    display: inline-block;
+
+    color: blue;
+
+    &:hover{
+    	color: black;
+    }
+  }
+}
+
+.image_container {
+  position: absolute;
+  bottom: -50px;
+  left: 700px;
+  width: 964px;
+  height: 565px
 }
 
 /* Large feature header image */
