@@ -17,17 +17,17 @@ tags:
       <div class="benefit">
         <h3>Keep players in-the-loop without the effort</h3>
         <p>Automatically let players know when games get moved or results come in. Put the latest schedule, results and standings in player's hands. All without lifting a finger.</p>
-        <a href="autopilot.html">Learn more about how we can save time</a>
+        <a href="autopilot.html">Find out how your staff can save time</a>
       </div>
       <div class="benefit">
         <h3>Reduce drop-outs and forfeits with organized teams</h3>
         <p>Teams are more organized when players always have the latest schedule in their hand and an easy way to message the rest of the team.</p>
-        <a href="messaging.html">Learn more about how to keep teams organized</a>
+        <a href="messaging.html">Learn about reducing forfeits with Mitoo</a>
       </div>
       <div class="benefit">
         <h3>Watch your league grow with happy players</h3>
         <p>Your league will grow as players. Players will also find your league easier through our listings</p>
-        <a href="local-sports-listing.html">Learn more growing your league</a>
+        <a href="local-sports-listing.html">Learn how to grow your league</a>
       </div>
     </div>
 
@@ -108,6 +108,16 @@ tags:
       <li><a href="/leagues/stories/save-time-game-updates.html">Play Soccer Miami: Save time keeping player up-to-date with game changes</a></li>
       <li><a href="/leagues/stories/access-schedules.html">Premier Sport &amp; Social: do players alway have access to the schedules and standings</a></li>
     </ul>
+  </section>
+</div>
+
+<div id="try-us" class="detail">
+  <section>
+      <div>
+        <h1>Sports messenger is <b>free</b> for leagues of any size</h1>
+        <a href="/leagues/try-it-now.html">Try it now</a>
+      </div>
+      <small>We have an VIP package</small>
   </section>
 </div>
 

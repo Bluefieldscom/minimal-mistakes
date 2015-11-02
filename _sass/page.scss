@@ -383,7 +383,7 @@ p+p {
 }
 
 .detail {
-  padding: 3rem 0;
+  padding: 4rem 0;
   height: auto;
   overflow: hidden;
 	border-bottom: 1px solid #E5E5E5;
@@ -409,6 +409,10 @@ p+p {
   	position:absolute;
   }
 
+  h2 {
+  	margin-top: 0;
+  }
+  
   h2, p {
     width: 470px;
 	}
@@ -520,6 +524,21 @@ p+p {
   left: 700px;
   width: 964px;
   height: 565px
+}
+
+#valued-leagues h2 {
+	width:100%;
+	text-align:center;
+}
+
+#valued-leagues li {
+	float: left;
+  display: block;
+  width: 200px;
+  height: 70px;
+  padding: 10px;
+  border: 2px solid #e1e1e1;
+  margin: 0 5px 5px 0;
 }
 
 /* Large feature header image */
