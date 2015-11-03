@@ -2,7 +2,7 @@
 
 title:            Mitoo
 locale:           en_US
-url:              
+url:
 
 
 # Jekyll configuration
@@ -15,6 +15,7 @@ sass:
   style: compressed
 gems:
   - jekyll-sitemap
+  - bourbon
 
 kramdown:
   auto_ids: true

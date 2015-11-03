@@ -1,0 +1,21 @@
+/*------------------------------------*\
+  IMG
+\*------------------------------------*/
+@mixin retina($path, $format, $width, $height) {
+  background-image: url(#{$path}.#{$format});
+  background-size: $width $height;
+  @media (min--moz-device-pixel-ratio: 1.3),
+         (-o-min-device-pixel-ratio: 2.6/2),
+         (-webkit-min-device-pixel-ratio: 1.3),
+         (min-device-pixel-ratio: 1.3),
+         (min-resolution: 1.3dppx) {
+    background-image: url(#{$path}@2x.#{$format});
+  }
+  @media only screen and (-webkit-min-device-pixel-ratio: 3) and (min-width: 768px),
+          only screen and (min--moz-device-pixel-ratio: 3) and (min-width: 768px),
+          only screen and (-o-min-device-pixel-ratio: 3/1) and (min-width: 768px),
+          only screen and (min-device-pixel-ratio: 3) and (min-width: 768px),
+          only screen and (min-resolution: 3dppx){
+    background-image: url(#{$path}@3x.#{$format});
+  }
+}

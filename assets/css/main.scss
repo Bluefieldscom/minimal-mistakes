@@ -2,27 +2,30 @@
 sitemap: false
 ---
 
-/*
- *
- *  Minimal Mistakes
- *
- *  Designer: Michael Rose
- *  Twitter: http://twitter.com/mmistakes
- *
-*/
+/* Vendor */
+@import "bourbon";
 
-// Partials
+/* Variables */
 @import "variables";
-@import "grid";
-@import "mixins";
-@import "normalize";
-@import "site";
-@import "typography";
-@import "pygments";
-@import "coderay";
-@import "elements";
-@import "forms";
-@import "page";
-@import "vendor/font-awesome/font-awesome";
-@import "vendor/magnific-popup/magnific-popup";
-//@import "vendor/google/fonts";
+
+/* Mixins */
+@import "mixins/helpers";
+@import "mixins/rem";
+@import "mixins/box-shadow";
+@import "mixins/font-size";
+@import "mixins/media";
+@import "mixins/round-pixel";
+@import "mixins/retina";
+
+/* Module */
+@import "global";
+@import "modules/type";
+@import "modules/input";
+@import "modules/button";
+@import "modules/grid";
+
+/* Partials */
+@import "partials/section";
+@import "partials/benefits";
+@import "partials/feature";
+@import "partials/league-grid";

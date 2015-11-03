@@ -1,0 +1,37 @@
+.feature {
+  font-size: 0;
+  &__content, &__image {
+      @include block-align(middle);
+  }
+
+  &__image {
+    width: 40%;
+    text-align: center;
+    img {
+      max-width: 100%;
+    }
+  }
+
+  &__content {
+    width: 60%;
+    @include rem(padding, 0, 4, 0, 2);
+  }
+
+  &--reverse {
+    .feature__image {
+      float: right;
+    }
+    .feature__content {
+      float: left;
+    }
+  }
+
+  @include respond-to(handhelds) {
+    .feature__image, .feature__content {
+      float: none;
+      width: 100%;
+      text-align: center;
+      padding: 0;
+    }
+  }
+}

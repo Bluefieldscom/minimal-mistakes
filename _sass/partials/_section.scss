@@ -1,0 +1,65 @@
+.page-section {
+  @include rem(padding, 5, 0);
+
+  h2 {
+    font-weight: 100;
+    color: #2C2C2C;
+    @include font-size(1.8);
+  }
+
+  p {
+    font-weight: 100;
+    color: #7B7B7B;
+    @include font-size(1.2);
+  }
+
+  &--special {
+    background: #2C2C2C;
+    h2 {
+      color: $c-white;
+    }
+    p {
+      color: #CACACA;
+    }
+  }
+
+  @include respond-to(handhelds) {
+    @include rem(padding, 2, 1);
+  }
+}
+
+// Heroe Header
+.page-section--hero {
+  background-color: #222;
+  background-image: url(/images/hero--league.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  //Temp hack
+  min-height: 600px;
+}
+
+// Main headline
+.page-section--headlines {
+  text-align: center;
+  h1 {
+    font-weight: 100;
+    font-size: 36px;
+    color: #2C2C2C;
+    @include font-size(3);
+    @include rem(margin-bottom, 1);
+  }
+
+  p {
+    font-weight: 100;
+    color: #7B7B7B;
+    @include font-size(1.8);
+  }
+}
+
+
+
+.page-section--benefits {
+
+}
+

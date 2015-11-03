@@ -1,0 +1,33 @@
+.league-grid {
+  font-size: 0;
+  &__league {
+    width:20%;
+    text-align: center;
+    height: 120px;
+    @include rem(padding, 2, 0);
+    @include font-size(1);
+    @include block-align(middle);
+
+
+    @include max-screen(205px) {
+      width: 100%;
+    }
+
+    @include screen(206px, 410px) {
+      width: 100%;
+    }
+
+    @include screen(411px, 615px) {
+      width: 50%;
+    }
+
+    @include screen(616px, 820px) {
+      width: 33.333333%;
+    }
+
+    @include min-screen(820px) {
+      width: 20%;
+    }
+
+  }
+}
