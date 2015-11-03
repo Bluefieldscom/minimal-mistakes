@@ -1,21 +1,25 @@
-<div class="navigation-wrapper">
-	<div class="site-name">
-		<a id="logo" href="{{site.url}}">
-			<img class="retina-logo starting-logo" alt="Mitoo - Social Sports" src="http://moremitoo.wpengine.com/wp-content/uploads/2015/05/mitoo_w_40@2x.png" style="height: 24px;"> 
-		</a>
-	</div><!-- /.site-name -->
-	<div class="top-navigation">
-		<nav role="navigation" id="site-nav" class="nav">
-		    <ul>
-		        {% for link in site.data.navigation %}
-				    {% if link.url contains 'http' %}
-				        {% assign domain = '' %}
-				        {% else %}
-				        {% assign domain = site.url %}
-				    {% endif %}
-				    <li><a href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank"{% endif %}>{{ link.title }}</a></li>
-				{% endfor %}
-		    </ul>
-		</nav>
-	</div><!-- /.top-navigation -->
-</div><!-- /.navigation-wrapper -->
+<nav role="navigation" class="navigation">
+
+	<div class="row">
+
+		<div class="navigation__site-name">
+			<a id="logo" href="{{site.url}}">
+				<img class="retina-logo starting-logo" alt="Mitoo - Social Sports" src="http://moremitoo.wpengine.com/wp-content/uploads/2015/05/mitoo_w_40@2x.png" style="height: 24px;">
+			</a>
+		</div>
+
+		<!-- /.site-name -->
+
+	    <ul class="navigation__links">
+	        {% for link in site.data.navigation %}
+			    {% if link.url contains 'http' %}
+			        {% assign domain = '' %}
+			        {% else %}
+			        {% assign domain = site.url %}
+			    {% endif %}
+			    <li><a href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank"{% endif %}>{{ link.title }}</a></li>
+			{% endfor %}
+	    </ul>
+
+	</div>
+</nav><!-- /.navigation-wrapper -->

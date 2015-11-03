@@ -5,7 +5,7 @@ tags:
 ---
 
 <!-- HERO HEADER -->
-<section class="page-section page-section--hero">
+<section class="page-section page-section--hero" data-navigation-transparent>
   <div class="screenshot-header">
     <div class="screenshot"></div>
   </div>

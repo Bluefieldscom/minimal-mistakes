@@ -1,0 +1,32 @@
+.navigation {
+  background: $c-black;
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+  @include rem(padding, 2, 0);
+
+  &--transparent {
+    background: transparent;
+  }
+
+  &__site-name, &__links {
+    @include block-align(middle);
+  }
+
+  &__links {
+    li {
+      @include font-size(1.4);
+      @include rem(margin-left, 2);
+      @include block-align(middle);
+
+      a {
+        text-decoration: none;
+        color: $c-white;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+
+}
