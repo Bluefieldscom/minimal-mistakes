@@ -9,11 +9,18 @@
     border: 1px solid #f1f1f1;
     border-bottom: 0;
     border-right: 0;
-
-
+    position: relative;
     @include font-size(1);
     @include block-align(middle);
-
+    
+    img {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      max-width: 100%;
+      @include rem(padding, 1);
+      @include transform(translateY(-50%) translateX(-50%))
+    }
 
     @include max-screen(205px) {
       width: 100%;

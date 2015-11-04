@@ -36,9 +36,9 @@ tags:
               <a href="autopilot.html">{{site.data.copy.league.benefits.messaging.link}}</a>
           </li>
           <li class="benefits__item">
-              <h3>Watch your league grow with happy players</h3>
-              <p>Your league will grow as players. Players will also find your league easier through our listings</p>
-              <a href="local-sports-listing.html">Learn how to grow your league</a>
+              <h3>{{site.data.copy.league.benefits.listing.title}}</h3>
+              <p>{{site.data.copy.league.benefits.listing.description}}</p>
+              <a href="local-sports-listing.html">{{site.data.copy.league.benefits.listing.description}}</a>
           </li>
         </ul>
         <div class="benefits__images">
@@ -72,10 +72,10 @@ tags:
           data-src="/images/graphics/graphic--no-integration.png"
           data-srcset="/images/graphics/graphic--no-integration.png 1x, /images/graphics/graphic--no-integration@2x.png 2x, /images/graphics/graphic--no-integration@3x.png 3x"  />
       </div>
-      <h2>Works with your league tool</h2>
-      <p>Mitoo keeps track of changes <b>on your existing tools</b>. Any tool or website works! There's nothing new to learn.</p>
-      <p>Setup is easy, within a few days your players can be using our app for your league. Need any help? we're available on the phone and email.</p>
-      <p><a href="/leagues/how-it-works">Learn how it works</a></p>
+      <h2>{{site.data.copy.league.benefits.integration.title}}</h2>
+      <p>{{site.data.copy.league.benefits.integration.description}}</p>
+      <p>{{site.data.copy.league.benefits.integration.description_2}}</p>
+      <p><a href="/leagues/how-it-works">{{site.data.copy.league.benefits.integration.link}}</a></p>
     </div>
   </div>
 </section>
@@ -94,8 +94,8 @@ tags:
             data-srcset="/images/graphics/graphic--all-in-one-place.png 1x, /images/graphics/graphic--all-in-one-place@2x.png 2x, /images/graphics/graphic--all-in-one-place@3x.png 3x"  />
         </div>
         <div class="feature__content">
-          <h2>Players have one place for everything.</h2>
-          <p>From game times, locations and standings to messages from the team and league, players have one place to look to know what's going on.</p>
+          <h2>{{site.data.copy.league.benefits.allinone.title}}</h2>
+          <p>{{site.data.copy.league.benefits.allinone.description}}</p>
         </div>
       </div>
 
@@ -116,9 +116,9 @@ tags:
             data-srcset="/images/graphics/graphic--messaging.png 1x, /images/graphics/graphic--messaging@2x.png 2x, /images/graphics/graphic--messaging@3x.png 3x"  />
         </div>
         <div class="feature__content">
-          <h2>Group messaging for the whole team.</h2>
-          <p>Team chats are setup automatically—so all the players are involved. Even players without the app receive email updates.</p>
-          <p>It's great for captains who need to make sure players turn-up on time. And great for sharing team photos and bringing players together off-the-field.</p>
+          <h2>{{site.data.copy.league.benefits.team_messaging.title}}</h2>
+          <p>{{site.data.copy.league.benefits.team_messaging.description}}</p>
+          <p>{{site.data.copy.league.benefits.team_messaging.description_2}}</p>
         </div>
       </div>
 
@@ -139,9 +139,9 @@ tags:
             data-srcset="/images/graphics/graphic--notifications.png 1x, /images/graphics/graphic--notifications@2x.png 2x, /images/graphics/graphic--notifications@3x.png 3x"  />
         </div>
         <div class="feature__content">
-          <h2>Players always up-to-date.</h2>
-          <p>Players are notified about important changes in real-time as they are made. Saving your staff time and keeping players organised.</p>
-          <p>Players customize their notifications to their liking.</p>
+          <h2>{{site.data.copy.league.benefits.notifications.title}}</h2>
+          <p>{{site.data.copy.league.benefits.notifications.description}}</p>
+          <p>{{site.data.copy.league.benefits.notifications.description_2}}</p>
         </div>
       </div>
     </div>
@@ -173,12 +173,57 @@ tags:
 <section class="page-section">
   <div class="row">
     <h2>League Stories</h2>
-    <ul>
-      <li><a href="/leagues/stories/game-attendance.html">Social Leagues: How to reduces drop-outs and improve game attendance</a></li>
-      <li><a href="/leagues/stories/brand-engagement.html">WAKA: Are players engaged around your brand</a></li>
-      <li><a href="/leagues/stories/save-time-messaging.html">Grand Rapids: Save time getting key messages to captains and players</a></li>
-      <li><a href="/leagues/stories/save-time-game-updates.html">Play Soccer Miami: Save time keeping player up-to-date with game changes</a></li>
-      <li><a href="/leagues/stories/access-schedules.html">Premier Sport &amp; Social: do players alway have access to the schedules and standings</a></li>
+    <ul class="storie-grid">
+      <li class="storie-grid__story storie-grid__story--social-leagues">
+        <a href="/leagues/stories/game-attendance.html">
+          <img
+            class="lazyload"
+            data-src="/images/league-logos/league-logo--social-leagues.png"
+            data-srcset="/images/league-logos/league-logo--social-leagues.png 1x, /images/league-logos/league-logo--social-leagues@2x.png 2x, /images/league-logos/league-logo--social-leagues@3x.png 3x"  />
+          <h4>Social Leagues</h4>
+          <p>How to reduces drop-outs and improve game attendance</p>
+        </a>
+      </li>
+      <li class="storie-grid__story storie-grid__story--social-waka storie-grid__story--black-text">
+        <a href="/leagues/stories/brand-engagement.html">
+          <img
+            class="lazyload"
+            data-src="/images/league-logos/league-logo--waka.png"
+            data-srcset="/images/league-logos/league-logo--waka.png 1x, /images/league-logos/league-logo--waka@2x.png 2x, /images/league-logos/league-logo--waka@3x.png 3x"  />
+          <h4>WAKA</h4>
+          <p>Are players engaged around your brand</p>
+        </a>
+      </li>
+      <li class="storie-grid__story storie-grid__story--grand-rapids storie-grid__story--black-text">
+        <a href="/leagues/stories/save-time-messaging.html">
+          <img
+            class="lazyload"
+            data-src="/images/league-logos/league-grand-rapids.png"
+            data-srcset="/images/league-logos/league-logo--grand-rapids.png 1x, /images/league-logos/league-logo--grand-rapids@2x.png 2x, /images/league-logos/league-logo--grand-rapids@3x.png 3x"  />
+          <h4>Grand Rapids</h4>
+          <p>Save time getting key messages to captains and players</p>
+        </a>
+      </li>
+      <li class="storie-grid__story storie-grid__story--player-soccer-miami">
+        <a href="/leagues/stories/save-time-game-updates.html">
+          <img
+            class="lazyload"
+            data-src="/images/league-logos/league-logo--player-soccer-miami.png"
+            data-srcset="/images/league-logos/league-logo--player-soccer-miami.png 1x, /images/league-logos/league-logo--player-soccer-miami@2x.png 2x, /images/league-logos/league-logo--player-soccer-miami@3x.png 3x"  />
+          <h4>Play Soccer Miami</h4>
+          <p>Save time keeping player up-to-date with game changes</p>
+        </a>
+      </li>
+      <li class="storie-grid__story storie-grid__story--premier-social-sports storie-grid__story--black-text">
+        <a href="/leagues/stories/access-schedules.html">
+          <img
+            class="lazyload"
+            data-src="/images/league-logos/league-logo--premier-social-sports.png"
+            data-srcset="/images/league-logos/league-logo--premier-social-sports.png 1x, /images/league-logos/league-logo--premier-social-sports@2x.png 2x, /images/league-logos/league-logo--premier-social-sports@3x.png 3x"  />
+          <h4>Premier Sport &amp; Social</h4>
+          <p>do players alway have access to the schedules and standings</p>
+        </a>
+      </li>
     </ul>
   </div>
 </section>

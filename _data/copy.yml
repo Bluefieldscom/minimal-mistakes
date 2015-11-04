@@ -4,8 +4,10 @@ league:
   headline: "Be the best experience for players"
   subline: "Be less busy and run a successful league that players love."
 
-  # Benefits
+  # Sections
   benefits:
+
+    # 3 mains
     autopilot:
       title: "Keep players in-the-loop without the effort"
       description: "Automatically let players know when games get moved or results come in. Put the latest schedule, results and standings in player's hands. All without lifting a finger."
@@ -18,3 +20,27 @@ league:
       title: "Watch your league grow with happy players"
       description: "Your league will grow as players. Players will also find your league easier through our listings"
       link: "Learn how to grow your league"
+
+    # Integration
+    integration:
+      title: "Works with your league tool"
+      description: "Mitoo keeps track of changes <b>on your existing tools</b>. Any tool or website works! There's nothing new to learn."
+      description_2: "Setup is easy, within a few days your players can be using our app for your league. Need any help? we're available on the phone and email."
+      link: "Learn how it works"
+
+    # all in one place
+    allinone:
+      title: "Players have one place for everything."
+      description: "From game times, locations and standings to messages from the team and league, players have one place to look to know what's going on."
+
+    # team messaging
+    team_messaging:
+      title: "Group messaging for the whole team."
+      description: "Team chats are setup automatically—so all the players are involved. Even players without the app receive email updates."
+      description_2: "It's great for captains who need to make sure players turn-up on time. And great for sharing team photos and bringing players together off-the-field."
+
+    # Player in the loop
+    notifications:
+      title: "Players always up-to-date."
+      description: "Players are notified about important changes in real-time as they are made. Saving your staff time and keeping players organised."
+      description_2: "Players customize their notifications to their liking."
