@@ -1,11 +1,19 @@
 .benefits {
+  font-size: 0;
   &__item {
-    @include vertical-margin-helper(2);
+    opacity: 0.8;
+    border-radius: 12px;
+    @include rem(padding, 2, 3);
+
+    &:hover {
+      opacity: 1;
+      cursor: pointer;
+    }
 
     h3 {
       font-weight: 100;
       color: #2C2C2C;
-      @include font-size(2);
+      @include font-size(1.8);
     }
 
     p {
@@ -18,18 +26,22 @@
       @include font-size(1.2);
     }
 
-    &__image-container, &__content {
-      @include block-align(top);
-    }
 
-    &__image-container {
-      width: 170px;
-      text-align: center;
-      @include rem(margin-top, 2);
+    &--active {
+      background:#fafafa;
+      opacity: 1;
     }
+  }
 
-    &__content {
-      width: calc(100% - 180px);
-    }
+  &__list, &__images {
+    @include block-align(middle);
+  }
+
+  &__list {
+    width: 60%;
+  }
+  &__images {
+    width: 40%;
+    text-align: center;
   }
 }

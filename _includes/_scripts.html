@@ -5,7 +5,6 @@
 <script>
   if($("[data-navigation-transparent]").length) {
     $(document).on( 'scroll', function(){
-
         if($(document).scrollTop() < $("[data-navigation-transparent]").height()) {
           $(".navigation").addClass("navigation--transparent");
         }else {
@@ -13,6 +12,12 @@
         }
     }).scroll();
   }
+
+
+  $('.benefits__item').on('click', function(){
+      $('.benefits__item').removeClass('benefits__item--active').eq($(this).index()).addClass('benefits__item--active');;
+      $('.benefits__images img').addClass('hide').eq($(this).index()).removeClass('hide');
+  });
 </script>
 
 

@@ -11,69 +11,53 @@ tags:
   </div>
 </section>
 
-<!-- BE THE BEST -->
-<section class="page-section page-section--headlines">
-  <div class="row">
-    <div class="block block--8 block--centered">
-      <h1>Be the best experience for players</h1>
-      <p>Be less busy and run a successful league that players love.</p>
-    </div>
-  </div>
-</section>
-
 <!-- FEATURES -->
 <section class="page-section page-section--benefit">
   <div class="row">
-    <div class="block block--8">
-
-      <div class="benefits">
-        <div class="benefits__item">
-          <div class="benefits__item__image-container">
-            <img
-              class="lazyload"
-              data-src="/images/graphics/graphic--loop.png"
-              data-srcset="/images/graphics/graphic--loop.png 1x, /images/graphics/graphic--loop@2x.png 2x, /images/graphics/graphic--loop@3x.png 3x"  />
-          </div>
-          <div class="benefits__item__content">
-            <h3>Keep players in-the-loop without the effort</h3>
-            <p>Automatically let players know when games get moved or results come in. Put the latest schedule, results and standings in player's hands. All without lifting a finger.</p>
-            <a href="autopilot.html">Find out how your staff can save time</a>
-          </div>
-        </div>
-        <div class="benefits__item">
-          <div class="benefits__item__image-container">
-            <img
-              class="lazyload"
-              data-src="/images/graphics/graphic--reduce.png"
-              data-srcset="/images/graphics/graphic--reduce.png 1x, /images/graphics/graphic--reduce@2x.png 2x, /images/graphics/graphic--reduce@3x.png 3x"  />
-
-          </div>
-          <div class="benefits__item__content">
-            <h3>Reduce drop-outs and forfeits with organized teams</h3>
-            <p>Teams are more organized when players always have the latest schedule in their hand and an easy way to message the rest of the team.</p>
-            <a href="messaging.html">Learn about reducing forfeits with Mitoo</a>
-          </div>
-        </div>
-        <div class="benefits__item">
-          <div class="benefits__item__image-container">
-            <img
-              class="lazyload"
-              data-src="/images/graphics/graphic--grow.png"
-              data-srcset="/images/graphics/graphic--grow.png 1x, /images/graphics/graphic--grow@2x.png 2x, /images/graphics/graphic--grow@3x.png 3x"  />
-          </div>
-          <div class="benefits__item__content">
-            <h3>Watch your league grow with happy players</h3>
-            <p>Your league will grow as players. Players will also find your league easier through our listings</p>
-            <a href="local-sports-listing.html">Learn how to grow your league</a>
-          </div>
-        </div>
+    <div class="block block--8 block--centered">
+      <div class="headline">
+        <h1 class="headline__title">{{site.data.copy.league.headline}}</h1>
+        <h3 class="headline__subtitle">{{site.data.copy.league.subline}}</h3>
       </div>
     </div>
-    <div class="block block--4">
-      <img
-        class="lazyload"
-        data-src="/images/graphics/graphic--iphone-notifications.png"
-        data-srcset="/images/graphics/graphic--iphone-notifications.png 1x, /images/graphics/graphic--iphone-notifications@2x.png 2x, /images/graphics/graphic--iphone-notifications@3x.png 3x"  />
+  </div>
+  <div class="row">
+    <div class="block block--12">
+      <div class="benefits">
+        <ul class="benefits__list">
+          <li class="benefits__item benefits__item--active">
+              <h3>{{site.data.copy.league.benefits.autopilot.title}}</h3>
+              <p>{{site.data.copy.league.benefits.autopilot.description}}</p>
+              <a href="autopilot.html">{{site.data.copy.league.benefits.autopilot.link}}</a>
+          </li>
+          <li class="benefits__item">
+              <h3>{{site.data.copy.league.benefits.messaging.title}}</h3>
+              <p>{{site.data.copy.league.benefits.messaging.description}}</p>
+              <a href="autopilot.html">{{site.data.copy.league.benefits.messaging.link}}</a>
+          </li>
+          <li class="benefits__item">
+              <h3>Watch your league grow with happy players</h3>
+              <p>Your league will grow as players. Players will also find your league easier through our listings</p>
+              <a href="local-sports-listing.html">Learn how to grow your league</a>
+          </li>
+        </ul>
+        <div class="benefits__images">
+          <img
+            class="lazyload"
+            data-src="/images/graphics/graphic--iphone-notifications.png"
+            data-srcset="/images/graphics/graphic--iphone-notifications.png 1x, /images/graphics/graphic--iphone-notifications@2x.png 2x, /images/graphics/graphic--iphone-notifications@3x.png 3x"  />
+
+          <img
+            class="lazyload hide"
+            data-src="/images/graphics/graphic--iphone-messaging.png"
+            data-srcset="/images/graphics/graphic--iphone-messaging.png 1x, /images/graphics/graphic--iphone-messaging@2x.png 2x, /images/graphics/graphic--iphone-messaging@3x.png 3x"  />
+
+          <img
+            class="lazyload hide"
+            data-src="/images/graphics/graphic--iphone-league-listing.png"
+            data-srcset="/images/graphics/graphic--iphone-league-listing.png 1x, /images/graphics/graphic--iphone-league-listing@2x.png 2x, /images/graphics/graphic--iphone-league-listing@3x.png 3x"  />
+        </div>
+      </div>
     </div>
   </div>
 </section>
@@ -81,7 +65,7 @@ tags:
 <!-- NO IMPLEMENTATION -->
 <section class="page-section page-section--special">
   <div class="row">
-    <div class="block block--8 block--centered text-center">
+    <div class="block block--6 block--centered text-center">
       <div>
         <img
           class="lazyload"
@@ -99,11 +83,10 @@ tags:
 
 
 <!-- EVERYTHING IN ONE PLACE -->
-<section class="page-section">
+<section class="page-section page-section--feature">
   <div class="row">
     <div class="block block--12">
-
-      <div class="feature">
+      <div class="feature feature--all-in-one-place">
         <div class="feature__image">
           <img
             class="lazyload"
@@ -121,11 +104,11 @@ tags:
 </section>
 
 <!-- GROUP MESSAGING -->
-<section class="page-section">
+<section class="page-section page-section--feature">
   <div class="row">
     <div class="block block--12">
 
-      <div class="feature feature--reverse">
+      <div class="feature feature--reverse feature--messaging">
         <div class="feature__image">
           <img
             class="lazyload"
@@ -145,10 +128,10 @@ tags:
 
 
 <!-- PLAYERS IN THE LOOP -->
-<section class="page-section">
+<section class="page-section page-section--feature">
   <div class="row">
     <div class="block block--12">
-      <div class="feature">
+      <div class="feature feature--notifications">
         <div class="feature__image">
           <img
             class="lazyload"
@@ -186,9 +169,9 @@ tags:
 </section>
 
 
-<!--  -->
-<div id="league-stories" class="detail">
-  <section>
+<!-- League stories -->
+<section class="page-section">
+  <div class="row">
     <h2>League Stories</h2>
     <ul>
       <li><a href="/leagues/stories/game-attendance.html">Social Leagues: How to reduces drop-outs and improve game attendance</a></li>
@@ -197,25 +180,24 @@ tags:
       <li><a href="/leagues/stories/save-time-game-updates.html">Play Soccer Miami: Save time keeping player up-to-date with game changes</a></li>
       <li><a href="/leagues/stories/access-schedules.html">Premier Sport &amp; Social: do players alway have access to the schedules and standings</a></li>
     </ul>
-  </section>
-</div>
+  </div>
+</section>
 
-<div id="try-us" class="detail">
-  <section>
-      <div>
-        <h1>Sports messenger is <b>free</b> for leagues of any size</h1>
-        <a href="/leagues/try-it-now.html">Try it now</a>
-      </div>
-      <small>We have an VIP package</small>
-  </section>
-</div>
+<section class="page-section">
+  <div class="row">
+    <h2>Sports messenger is <b>free</b> for leagues of any size</h2>
+    <a href="/leagues/try-it-now.html">Try it now</a>
+    <small>We have an VIP package</small>
+  </div>
+</section>
 
-<div id="players-love-us" class="detail">
-  <section>
+<section class="page-section">
+  <div class="row">
     <h2>Players love us</h2>
 
     ***** "The UI is beautiful. Very easy to use."
     ***** "Awesome app!!!!! This app is kickass. Very useful to get in the loop for sports events."
     ***** "Our team finally talks! I'm impressed by the functionality of this app. Straightforward, easy to use, easy to integrate. Kudos for the great product, recommending it."
-  </section>
-</div>
+
+  </div>
+</section>

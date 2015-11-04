@@ -1,0 +1,20 @@
+league:
+
+  # Headlines
+  headline: "Be the best experience for players"
+  subline: "Be less busy and run a successful league that players love."
+
+  # Benefits
+  benefits:
+    autopilot:
+      title: "Keep players in-the-loop without the effort"
+      description: "Automatically let players know when games get moved or results come in. Put the latest schedule, results and standings in player's hands. All without lifting a finger."
+      link: "Find out how your staff can save time"
+    messaging:
+      title: "Reduce drop-outs and forfeits"
+      description: "Teams are more organized when players always have the latest schedule in their hand and an easy way to message the rest of the team."
+      link: "Learn about reducing forfeits with Mitoo"
+    listing:
+      title: "Watch your league grow with happy players"
+      description: "Your league will grow as players. Players will also find your league easier through our listings"
+      link: "Learn how to grow your league"

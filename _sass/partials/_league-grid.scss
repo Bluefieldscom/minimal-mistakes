@@ -1,10 +1,16 @@
 .league-grid {
   font-size: 0;
+  border-bottom: 1px solid #f1f1f1;
+  border-right: 1px solid #f1f1f1;
   &__league {
     width:20%;
     text-align: center;
     height: 120px;
-    @include rem(padding, 2, 0);
+    border: 1px solid #f1f1f1;
+    border-bottom: 0;
+    border-right: 0;
+
+
     @include font-size(1);
     @include block-align(middle);
 
