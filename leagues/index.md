@@ -176,7 +176,7 @@ tags:
     <ul>
       {% for league in site.data.league_stories %}
       <li>
-        <a href="{{league.link}}" class="story story--{{league.tone}} story--{{league.name}}">
+        <a href="{{league.link}}" class="story story--list story--{{league.tone}}" style="background-image: url('/images/story-backgrounds/story-background--{{league.name}}.jpg')">
           <div class="story__content">
             <h4 class="story__league-name">
             <img

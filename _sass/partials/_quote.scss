@@ -13,15 +13,17 @@
 
   &__text {
     quotes: "“" "”" "‘" "’";
-    opacity: 0.8
-;    font-weight: 400;
+
+    font-weight: 400;
 
     &:before {
       content: open-quote;
+      opacity: 0.6;
     }
 
     &:after {
       content: close-quote;
+      opacity: 0.6;
     }
   }
 }

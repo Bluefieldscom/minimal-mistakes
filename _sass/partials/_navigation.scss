@@ -3,7 +3,7 @@
   position: fixed;
   z-index: 10;
   width: 100%;
-  @include rem(padding, 2, 0);
+  @include rem(padding, 1.5, 0);
 
   &--transparent {
     background: transparent;

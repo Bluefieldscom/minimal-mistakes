@@ -29,7 +29,7 @@
   }
 
   @include respond-to(handhelds) {
-    @include rem(padding, 2, 1);
+    @include rem(padding, 2, 0);
   }
 }
 
