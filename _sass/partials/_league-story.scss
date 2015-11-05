@@ -1,0 +1,119 @@
+.story {
+  color: $c-white;
+  text-align: left;
+  height: 200px;
+  display: inline-block;
+  background: #222;
+  background-size: cover;
+  background-position: top right;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  font-size: 0;
+
+  @include rem(padding, 1, 30, 1, 3);
+
+  @include respond-to(handhelds) {
+    @include rem(padding, 0, 10, 1, 2);
+  }
+
+  &:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    border-radius: 6px;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(-90deg, rgba(0,0,0,0.00) 30%, #000000 100%);
+  }
+
+
+  &__content {
+    z-index: 1;
+    position: relative;
+    color: $c-white;
+  }
+
+  &__league-logo, &__league-title {
+    @include block-align(middle);
+  }
+
+  &__league-title {
+    @include rem(margin-left, 1);
+    font-weight: 300;
+  }
+
+  &__league-name {
+    @include font-size(2);
+    @include rem(margin-bottom, 1);
+    @include rem(margin-top, 1);
+    @include respond-to(handhelds) {
+      @include font-size(1.5);
+    }
+  }
+
+  &__problem {
+    opacity: 0.8;
+    @include font-size(1.5);
+    @include respond-to(handhelds) {
+      @include font-size(1);
+    }
+  }
+
+  &__quote {
+    @include font-size(2);
+    @include rem(margin-top, 2);
+  }
+
+
+
+  &--light {
+
+    .story__content {
+      color: $c-black;
+    }
+
+    &:before {
+      top: 0;
+      left: 0;
+      background-image: linear-gradient(-90deg, rgba(255,255,255,0.00) 30%, #FFFFFF 100%);
+    }
+  }
+
+  &--header {
+    min-height: 600px;
+  }
+
+
+
+
+  // Temp hack
+  &--social-leagues {
+    padding-top: 22px;
+    background-image: url(http://more.mitoo.co/wp-content/uploads/2015/09/Elliot-014.jpg);
+  }
+
+  &--waka {
+    padding-top: 42px;
+    background-image: url(http://more.mitoo.co/wp-content/uploads/2015/09/case_study-waka.jpg);
+  }
+
+  &--grand-rapids {
+    padding-top: 22px;
+    background-image: url(http://more.mitoo.co/wp-content/uploads/2015/09/bg-chris2.jpg);
+  }
+
+  &--player-soccer-miami {
+    padding-top: 37px;
+    background-image: url(http://more.mitoo.co/wp-content/uploads/2015/09/Elliot-014.jpg);
+  }
+
+  &--premier-social-sports {
+    padding-top: 37px;
+    background-image: url(http://more.mitoo.co/wp-content/uploads/2015/09/leaguestudybg-chin.jpg);
+  }
+
+
+}

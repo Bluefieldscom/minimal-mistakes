@@ -1,0 +1,27 @@
+.quote {
+  @include vertical-margin-helper(1);
+  @include font-size(1.4);
+
+
+  &--big {
+    @include font-size(2.5, 1.4);
+  }
+
+  &__star {
+    @include font-size(2.8);
+  }
+
+  &__text {
+    quotes: "“" "”" "‘" "’";
+    opacity: 0.8
+;    font-weight: 400;
+
+    &:before {
+      content: open-quote;
+    }
+
+    &:after {
+      content: close-quote;
+    }
+  }
+}

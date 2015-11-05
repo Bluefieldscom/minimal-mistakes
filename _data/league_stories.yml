@@ -1,0 +1,36 @@
+- name: social-leagues
+  title: "Social Leagues"
+  problem: "How to reduces drop-outs and improve game attendance"
+  quote: "quote"
+  tone: dark
+  showtitle: true
+  link: /leagues/stories/game-attendance.html
+
+- name: waka
+  title: "WAKA"
+  problem: "Are players engaged around your brand"
+  quote: "quote"
+  tone: light
+  link: /leagues/stories/brand-engagement.html
+
+- name: grand-rapids
+  title: "Grand Rapids"
+  problem: "Save time getting key messages to captains and players"
+  quote: "quote"
+  tone: light
+  showtitle: true
+  link: /leagues/stories/save-time-messaging.html
+
+- name: player-soccer-miami
+  title: "Play Soccer Miami"
+  problem: "Save time keeping player up-to-date with game changes"
+  quote: "quote"
+  tone: dark
+  link: /leagues/stories/save-time-game-updates.html
+
+- name: premier-social-sports
+  title: "Premier Sport &amp; Social"
+  problem: "do players alway have access to the schedules and standings"
+  quote: "quote"
+  tone: light
+  link: /leagues/stories/access-schedules.html

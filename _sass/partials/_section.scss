@@ -1,14 +1,17 @@
+/*------------------------------------*\
+  SECTION - MAIN STYLE
+\*------------------------------------*/
 .page-section {
   @include rem(padding, 5, 0);
 
-  h2 {
+  &__title {
     font-weight: 100;
     color: #2C2C2C;
     @include font-size(1.8);
     @include rem(margin-bottom, 1);
   }
 
-  p {
+  &__text {
     font-weight: 100;
     color: #7B7B7B;
     @include font-size(1.2);
@@ -17,10 +20,10 @@
 
   &--special {
     background: #2C2C2C;
-    h2 {
+    .page-section__title {
       color: $c-white;
     }
-    p {
+    .page-section__text {
       color: #CACACA;
     }
   }
@@ -30,38 +33,35 @@
   }
 }
 
-// Heroe Header
-.page-section--hero {
-  background-color: #222;
-  background-image: url(/images/hero--league.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
+/*------------------------------------*\
+  SECTION - ALTERNATIVE
+\*------------------------------------*/
 
-  //Temp hack
+/* Heroes header */
+.page-section--header {
+  background-color: #222;
   min-height: 600px;
+  padding: 0;
 }
 
+/* Features */
 .page-section--feature {
   padding: 0;
 }
 
-
-.headline {
-  text-align: center;
-  @include rem(margin-bottom, 5);
-
-  &__title {
-    font-weight: 400;
-    font-size: 36px;
-    color: #2C2C2C;
-    @include font-size(2-5);
-    @include rem(margin-bottom, 1);
-  }
-
-  &__subtitle{
-    font-weight: 100;
-    color: #7B7B7B;
-    @include font-size(1.8);
+/* league stories */
+.page-section--league-stories {
+  .story {
+    @include vertical-margin-helper(1);
+    border-radius: 6px;
+    border: 1px solid #f1f1f1;
+    text-decoration: none;
   }
 }
 
+/* Player quotes */
+.section--player-quotes {
+  .quote {
+    @include vertical-margin-helper(1);
+  }
+}

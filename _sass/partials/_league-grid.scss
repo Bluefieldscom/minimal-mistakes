@@ -2,6 +2,7 @@
   font-size: 0;
   border-bottom: 1px solid #f1f1f1;
   border-right: 1px solid #f1f1f1;
+  
   &__league {
     width:20%;
     text-align: center;
@@ -12,7 +13,7 @@
     position: relative;
     @include font-size(1);
     @include block-align(middle);
-    
+
     img {
       position: absolute;
       top: 50%;
