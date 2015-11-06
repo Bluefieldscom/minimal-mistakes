@@ -23,10 +23,13 @@ tags: [Jekyll, theme, responsive, blog, template]
 
 <section class="page-section page-section--app-presentation">
   <div class="row">
-    <div class="block block--4">
-      Screenshot of search app
+    <div class="block block--5 text-center">
+      <img
+        class="lazyload"
+        data-src="/images/graphics/graphic--iphone-search-app.png"
+        data-srcset="/images/graphics/graphic--iphone-search-app.png 1x, /images/graphics/graphic--iphone-search-app@2x.png 2x, /images/graphics/graphic--iphone-search-app@3x.png 3x"  />
     </div>
-    <div class="block block--8">
+    <div class="block block--7">
 
       <div class="app app--search">
         <h2>
@@ -54,7 +57,13 @@ tags: [Jekyll, theme, responsive, blog, template]
 <section class="page-section page-section--app-presentation">
   <div class="row">
 
-    <div class="block block--8">
+    <div class="block block--5 block--float-right text-center">
+      <img
+        class="lazyload"
+        data-src="/images/graphics/graphic--iphone-team-app.png"
+        data-srcset="/images/graphics/graphic--iphone-team-app.png 1x, /images/graphics/graphic--iphone-team-app@2x.png 2x, /images/graphics/graphic--iphone-team-app@3x.png 3x"  />
+    </div>
+    <div class="block block--7">
       <div class="app app--team">
         <h2>
           <img
@@ -73,10 +82,6 @@ tags: [Jekyll, theme, responsive, blog, template]
         </ul>
         <a href="{{site.data.copy.home.team.link}}" class="app__download-button button button--big">Download</a>
       </div>
-    </div>
-
-    <div class="block block--4">
-      Screenshot of team app
     </div>
   </div>
 </section>

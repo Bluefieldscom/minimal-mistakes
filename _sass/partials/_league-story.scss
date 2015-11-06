@@ -1,7 +1,6 @@
 .story {
   color: $c-white;
   text-align: left;
-  height: 200px;
   display: inline-block;
   background: #222;
   background-size: cover;
@@ -12,11 +11,7 @@
   font-size: 0;
   vertical-align: middle;
   text-align: left;
-
   @include display(flex);
-  @include respond-to(handhelds) {
-    height: auto;
-  }
 
   // Background gradient
   &:before {
@@ -103,10 +98,17 @@
 
 //Displayed as a list
 .story--list {
+
+  height: 200px;
+  @include respond-to(handhelds) {
+    height: auto;
+    background-position-x: 75%;
+  }
+
   .story__content {
-    @include rem(padding, 1, 30, 1, 3);
+    @include rem(padding, 0, 30, 0, 3);
     @include respond-to(handhelds) {
-      @include rem(padding, 0, 6, 1, 2);
+      @include rem(padding, 2, 6, 2, 3);
     }
   }
 }
@@ -114,26 +116,37 @@
 
 //Displayed as a header
 .story--header {
-  height: 600px;
+  height: 100%;
 
+  @include respond-to(handhelds) {
+    height: auto;
+  }
 
   .story__content {
-    margin-top: -30px;
+    margin-top: 0;
     @include rem(padding-right, 20);
     @include respond-to(handhelds) {
-      @include rem(padding, 0, 6, 1, 2);
+      @include rem(padding, 4, 0);
     }
   }
 
   &:before {
     @include linear-gradient(
       to left,
-
       rgba(0, 0, 0, 0) 0%,
       rgba(0, 0, 0, 0.8) 40%,
       rgba(0, 0, 0, 0.8) 100%,
       $fallback: transparent
     );
+
+    @include respond-to(handhelds) {
+      @include linear-gradient(
+        to left,
+        rgba(0, 0, 0, 0.8) 0%,
+        rgba(0, 0, 0, 0.8) 100%,
+        $fallback: transparent
+      );
+    }
   }
 
   &.story--light:before  {
@@ -145,29 +158,13 @@
       rgba(255, 255, 255, 0.8) 100%,
       $fallback: transparent
     );
+    @include respond-to(handhelds) {
+      @include linear-gradient(
+        to left,
+        rgba(255, 255, 255, 0.8) 0%,
+        rgba(255, 255, 255, 0.8) 100%,
+        $fallback: transparent
+      );
+    }
   }
 }
-
-//
-//// Temp hack
-//.story {
-//  &.story--social-leagues {
-//    background-image: url(http://more.mitoo.co/wp-content/uploads/2015/09/Elliot-014.jpg);
-//  }
-//
-//  &.story--waka {
-//    background-image: url(http://more.mitoo.co/wp-content/uploads/2015/09/case_study-waka.jpg);
-//  }
-//
-//  &.story--grand-rapids {
-//    background-image: url(http://more.mitoo.co/wp-content/uploads/2015/09/bg-chris2.jpg);
-//  }
-//
-//  &.story--player-soccer-miami {
-//    background-image: url(http://more.mitoo.co/wp-content/uploads/2015/09/Elliot-014.jpg);
-//  }
-//
-//  &.story--premier-social-sports {
-//    background-image: url(http://more.mitoo.co/wp-content/uploads/2015/09/leaguestudybg-chin.jpg);
-//  }
-//}

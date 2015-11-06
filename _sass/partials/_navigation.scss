@@ -14,7 +14,7 @@
 
   &__links {
     li {
-      @include font-size(1.4);
+      @include font-size(1);
       @include rem(margin-left, 2);
       @include block-align(middle);
 

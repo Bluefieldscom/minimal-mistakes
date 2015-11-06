@@ -22,42 +22,39 @@ tags:
     </div>
   </div>
   <div class="row">
+
     <div class="block block--12">
-      <div class="benefits">
-        <ul class="benefits__list">
-          <li class="benefits__item benefits__item--active">
+
+        <ul class="benefits-list">
+          <li class="benefit benefit--active">
+              <img
+                class="lazyload"
+                data-src="/images/graphics/graphic--iphone-notifications.png"
+                data-srcset="/images/graphics/graphic--iphone-notifications.png 1x, /images/graphics/graphic--iphone-notifications@2x.png 2x, /images/graphics/graphic--iphone-notifications@3x.png 3x"  />
               <h3>{{site.data.copy.league.benefits.autopilot.title}}</h3>
               <p>{{site.data.copy.league.benefits.autopilot.description}}</p>
               <!-- <a href="autopilot.html">{{site.data.copy.league.benefits.autopilot.link}}</a> -->
           </li>
-          <li class="benefits__item">
+          <li class="benefit">
+              <img
+                class="lazyload hide"
+                data-src="/images/graphics/graphic--iphone-messaging.png"
+                data-srcset="/images/graphics/graphic--iphone-messaging.png 1x, /images/graphics/graphic--iphone-messaging@2x.png 2x, /images/graphics/graphic--iphone-messaging@3x.png 3x"  />
               <h3>{{site.data.copy.league.benefits.messaging.title}}</h3>
               <p>{{site.data.copy.league.benefits.messaging.description}}</p>
               <!-- <a href="autopilot.html">{{site.data.copy.league.benefits.messaging.link}}</a> -->
           </li>
-          <li class="benefits__item">
+          <li class="benefit">
+              <img
+                class="lazyload hide"
+                data-src="/images/graphics/graphic--iphone-league-listing.png"
+                data-srcset="/images/graphics/graphic--iphone-league-listing.png 1x, /images/graphics/graphic--iphone-league-listing@2x.png 2x, /images/graphics/graphic--iphone-league-listing@3x.png 3x"  />
               <h3>{{site.data.copy.league.benefits.listing.title}}</h3>
               <p>{{site.data.copy.league.benefits.listing.description}}</p>
               <!-- <a href="local-sports-listing.html">{{site.data.copy.league.benefits.listing.description}}</a> -->
           </li>
         </ul>
-        <div class="benefits__images">
-          <img
-            class="lazyload"
-            data-src="/images/graphics/graphic--iphone-notifications.png"
-            data-srcset="/images/graphics/graphic--iphone-notifications.png 1x, /images/graphics/graphic--iphone-notifications@2x.png 2x, /images/graphics/graphic--iphone-notifications@3x.png 3x"  />
 
-          <img
-            class="lazyload hide"
-            data-src="/images/graphics/graphic--iphone-messaging.png"
-            data-srcset="/images/graphics/graphic--iphone-messaging.png 1x, /images/graphics/graphic--iphone-messaging@2x.png 2x, /images/graphics/graphic--iphone-messaging@3x.png 3x"  />
-
-          <img
-            class="lazyload hide"
-            data-src="/images/graphics/graphic--iphone-league-listing.png"
-            data-srcset="/images/graphics/graphic--iphone-league-listing.png 1x, /images/graphics/graphic--iphone-league-listing@2x.png 2x, /images/graphics/graphic--iphone-league-listing@3x.png 3x"  />
-        </div>
-      </div>
     </div>
   </div>
 </section>
@@ -68,7 +65,7 @@ tags:
     <div class="block block--6 block--centered text-center">
       <div>
         <img
-          class="lazyload"
+          class="page-section__image lazyload"
           data-src="/images/graphics/graphic--no-integration.png"
           data-srcset="/images/graphics/graphic--no-integration.png 1x, /images/graphics/graphic--no-integration@2x.png 2x, /images/graphics/graphic--no-integration@3x.png 3x"  />
       </div>

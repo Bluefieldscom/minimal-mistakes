@@ -18,6 +18,13 @@
     @include vertical-margin-helper(0.5);
   }
 
+  &__image {
+    @include rem(margin-bottom, 2);
+    img {
+      max-widht: 100%;
+    }
+  }
+
   &--special {
     background: #2C2C2C;
     .page-section__title {
@@ -29,7 +36,7 @@
   }
 
   @include respond-to(handhelds) {
-    @include rem(padding, 2, 0);
+    @include rem(padding, 3, 0);
   }
 }
 
@@ -49,9 +56,24 @@
   }
 }
 
+/* Story header */
+.page-section--story-header {
+  background-color: #222;
+  min-height: 600px;
+  padding: 0;
+  margin-top: $navigation-height;
+  @include respond-to(handhelds) {
+    min-height: auto;
+  }
+}
+
 /* Features */
 .page-section--feature {
   padding: 0;
+  border-bottom: 1px solid #f1f1f1;
+  &:last-child{
+    border-bottom: 0;
+  }
 }
 
 /* league stories */

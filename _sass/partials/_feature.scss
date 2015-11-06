@@ -1,9 +1,9 @@
 .feature {
   font-size: 0;
   height: 400px;
-  border-bottom: 1px solid #f1f1f1;
+
   &__content, &__image {
-      @include block-align(middle);
+    @include block-align(middle);
   }
 
   &__image {
@@ -46,8 +46,8 @@
   @include respond-to(handhelds) {
     height: auto;
     padding: 0;
-    
-    @include rem(padding, 4, 1);
+
+    @include rem(padding, 4, 0);
     .feature__image, .feature__content {
       float: none;
       width: 100%;

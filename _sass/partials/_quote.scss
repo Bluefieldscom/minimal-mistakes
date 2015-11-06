@@ -7,7 +7,12 @@
 
   &--big {
     .quote__star { @include font-size(2.5); }
-    .quote__text { @include font-size(2.5, 1.4); }
+    .quote__text {
+      @include font-size(2.5, 1.4);
+      @include respond-to(handhelds) {
+        @include font-size(1.8, 1.4);
+      }
+    }
     .quote__owner { @include font-size(1.2); }
   }
 
