@@ -1,22 +1,15 @@
 # Home - App presentation
 home:
 
-  subline: "Be less busy and run a successful league that players love."
+  subline: "One place for team communication and game information"
 
   search:
-    title: Mitoo - Search
+    title: Find sports clubs and leagues near you.
     description: All of your team communication and game information in one place.
     link: http://loller.com
-    features:
-      - Upcoming games, recent results and league standings that are always up-to-date
-      - Real-time notifications that keep you in the loop. No one likes turning-up to a game that has been canceled!
-      - Messaging for your team—Organize and share photos with everyone in your team
-      - LeagueAlerts™—Receive important messages direct from the league
-      - Configurable notifications for push and email
-      - New features added frequently
-      - Rumored to boost your team's standing in the league
+    features: Test
   team:
-    title: Mitoo - Team
+    title: Team communication solved.
     description: All of your team communication and game information in one place.
     link: http://loller.com/team
     features:
