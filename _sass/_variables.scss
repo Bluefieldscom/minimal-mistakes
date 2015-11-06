@@ -15,7 +15,7 @@ $c-primary            : $c-blue;
   UI
 \*------------------------------------*/
 $base-radius          : 3px;
-$navigation-height    : 74px;
+$navigation-height    : 72px;
 
 /*------------------------------------*\
   FONTS
@@ -47,7 +47,7 @@ $transition-easing    : linear;
   GRID
 \*------------------------------------*/
 $grid-width           : 1024px;
-$gutter-width         : $base-font-size;
+$gutter-width         : $base-font-size * 2;
 $columns-number       : 12;
 $row-name             : "row";
 $block-name           : "block";

@@ -6,7 +6,9 @@ var googleMap = function(selector) {
       lat: -34.397,
       lng: 150.644
     },
+    disableDefaultUI: true,
     scrollwheel: false,
+    draggable: false,
     zoom: 8
   });
 

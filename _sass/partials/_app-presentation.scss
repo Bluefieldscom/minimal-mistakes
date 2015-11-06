@@ -1,0 +1,54 @@
+.app {
+  &__icon, &__name {
+    @include block-align(middle);
+  }
+
+  &__icon {}
+
+  &__name {
+    font-weight: 100;
+    @include rem(margin-left, 1);
+    @include font-size(2);
+  }
+
+  &__description {
+    @include rem(margin-top, 2);
+    @include font-size(1.6);
+  }
+
+  &__feature-list {
+    @include rem(margin-top, 1);
+    @include font-size(1.2);
+    li {
+      @include rem(margin-top, 0.2);
+      color: #777;
+      &:before {
+        content: "—";
+        margin-right: 10px;
+      }
+    }
+  }
+
+  &__download-button {
+    @include rem(margin-top, 2);
+  }
+
+
+  &--team {
+    text-align: right;
+
+    .app__icon {
+      float:right;
+    }
+    .app__name {
+      margin-left: 0;
+      @include rem(margin-right, 1);
+    }
+
+    .app__feature-list li:before { content: none; }
+    .app__feature-list li:after {
+      content: "—";
+      margin-left: 10px;
+    }
+  }
+}

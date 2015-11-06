@@ -5,7 +5,7 @@ tags:
 ---
 
 <!-- HERO HEADER -->
-<section class="page-section page-section--header" data-navigation-transparent>
+<section class="page-section page-section--header">
   <div class="screenshot-header">
     <div class="screenshot"></div>
   </div>
@@ -176,7 +176,7 @@ tags:
     <ul>
       {% for league in site.data.league_stories %}
       <li>
-        <a href="{{league.link}}" class="story story--list story--{{league.tone}}" style="background-image: url('/images/story-backgrounds/story-background--{{league.name}}.jpg')">
+        <a href="/leagues/stories/{{league.name}}" class="story story--list story--{{league.tone}}" style="background-image: url('/images/story-backgrounds/story-background--{{league.name}}--small.jpg')">
           <div class="story__content">
             <h4 class="story__league-name">
             <img

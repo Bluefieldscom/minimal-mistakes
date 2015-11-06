@@ -1,13 +1,11 @@
 .navigation {
   background: $c-black;
   position: fixed;
+  top: 0;
   z-index: 10;
   width: 100%;
   @include rem(padding, 1.5, 0);
 
-  &--transparent {
-    background: transparent;
-  }
 
   &__site-name, &__links {
     @include block-align(middle);
@@ -28,5 +26,4 @@
       }
     }
   }
-
 }

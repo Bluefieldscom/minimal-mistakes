@@ -3,15 +3,15 @@
 <!-- <script src="{{ site.url }}/assets/js/scripts.min.js"></script> -->
 <script src="/assets/js/plugins/lazysizes.min.js"></script>
 <script>
-  if($("[data-navigation-transparent]").length) {
-    $(document).on( 'scroll', function(){
-        if($(document).scrollTop() < $("[data-navigation-transparent]").height()) {
-          $(".navigation").addClass("navigation--transparent");
-        }else {
-          $(".navigation").removeClass("navigation--transparent");
-        }
-    }).scroll();
-  }
+  // if($("[data-navigation-transparent]").length) {
+  //   $(document).on( 'scroll', function(){
+  //       if($(document).scrollTop() < $("[data-navigation-transparent]").height()) {
+  //         $(".navigation").addClass("navigation--transparent");
+  //       }else {
+  //         $(".navigation").removeClass("navigation--transparent");
+  //       }
+  //   }).scroll();
+  // }
   $('.benefits__item').on('click', function(){
       $('.benefits__item').removeClass('benefits__item--active').eq($(this).index()).addClass('benefits__item--active');;
       $('.benefits__images img').addClass('hide').eq($(this).index()).removeClass('hide');

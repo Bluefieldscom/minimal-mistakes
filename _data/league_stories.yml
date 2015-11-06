@@ -1,36 +1,64 @@
 - name: social-leagues
   title: "Social Leagues"
   problem: "How to reduces drop-outs and improve game attendance"
-  quote: "quote"
+  quote: "Players have found the app’s ability for in-hand schedule and standings to be a huge help with game attendance and team organization"
+  admin:  Elliot Jeffords
+  role: Operations & Sponsorship Director
   tone: dark
   showtitle: true
-  link: /leagues/stories/game-attendance.html
+  about: "We specialize in “niche” leagues & events. From our National Bocce League to our Sailing Clubs, we have a variety of Social Sports. This league was created to give people a chance to try something new while meeting new people and having a great time doing it. Social Leagues is made up of 6 brands currently. Play Big Apple, Baltimore Social, Play Mile High, Play The Bay & Chucktown Social."
+  sports:
+    [Bar Games, Basketball, Bocce, Cornhole, Dodgeball, Flag Football, Kickball, Ping Pong, Running Club, Sailing, Shuffleboard, And more!]
+  locations:
+    ["40.712784, -74.005941", "39.739236, -104.990251", "37.77493, -122.419416", "39.290385, -76.612189", "32.776475, -79.931051"]
 
 - name: waka
   title: "WAKA"
   problem: "Are players engaged around your brand"
-  quote: "quote"
+  quote: "It’s been GREAT for player engagement and communication"
+  admin: "Megan Lundquist"
+  role: "Senior Community Manager"
+  about: "In everything we do, we believe in having fun. Life should be fun, and people should be happy. Our goal is to create 100 million smiles and our mission is to deliver the best fun and life-changing happiness. We do this by operating fantastic league, event, and party experiences. WAKA is about best parties, best games, and best friends."
+  sports:
+    [Foam Dodgeball, Kickball, Volleyball, Bowling, Flag Football, Softball, Run Fun, Ultimate Frisbee, Basketball, And more!]
   tone: light
-  link: /leagues/stories/brand-engagement.html
+  locations:
+    ["35.085334, -106.605553", "41.308274, -72.927883", "34.052234, -118.243685", "44.475883, -73.212072", "35.227087, -80.843127", "41.878114, -87.629798", "32.776664, -96.796988", "36.918535, -76.269526", "29.760427, -95.369803", "36.169941, -115.13983", "40.760779, -111.891047", "32.221743, -110.926479", "30.267153, -97.743061", "38.581572, -121.4944", "47.60621, -122.332071", "34.370488, -119.139064", "45.523062, -122.676482", "42.360083, -71.05888", "33.448377, -112.074037", "26.222418, -80.163107", "47.056122, -122.893519", "38.977113, -77.020461", "36.162664, -86.781602", "43.661471, -70.255326", "28.538336, -81.379236", "41.763711, -72.685093", "37.713617, -122.250368", "39.739236, -104.990251", "44.977753, -93.265011", "21.306944, -157.858333", "34.959208, -116.419389", "41.823989, -71.412834", "32.366805, -86.299969", "28.085915, -80.752872", "34.420831, -119.69819", "38.978445, -76.492183", "30.332184, -81.655651", "33.748995, -84.387982", "35.77959, -78.638179", "33.762367, -118.141574", "39.960664, -75.605488", "37.540725, -77.436048", "36.153982, -95.992775", "32.715738, -117.161084", "39.739072, -75.539788", "26.640628, -81.872308", "27.749516, -82.583495", "32.755488, -97.330766"]
 
 - name: grand-rapids
   title: "Grand Rapids"
   problem: "Save time getting key messages to captains and players"
-  quote: "quote"
+  quote: "The Mitoo app allows us to get important information immediately into our player’s hands… literally"
+  admin: Chris Wessely
+  role: Founder
+  about: "Grand Rapids Sport & Social Club is perfect for the Grand Rapids 21 and up, professionals.  We offer a unique opportunity to meet other physically and socially active individuals. Ideal for people who may have recently moved to the Grand Rapids area or just looking for a reason to get out of the house on a weekday!  From Dodgeball, Kickball, to Flag Football, everything we do is coed"
   tone: light
   showtitle: true
-  link: /leagues/stories/save-time-messaging.html
+  sports: [Dodgeball, Futsal, Multi Sport, Running, Volleyball (Indoor), Wiffleball]
+  locations:
+    ["42.957539, -85.636477"]
 
 - name: player-soccer-miami
   title: "Play Soccer Miami"
   problem: "Save time keeping player up-to-date with game changes"
-  quote: "quote"
+  admin: Silvia Caviglia
+  role: League Owner
+  about: "What will you find at Play Soccer Miami? Just that: soccer, soccer, soccer. Our team of experienced and dedicated professionals will ensure that you have the best recreational and social experience customized to your needs. Weather you are a retired pro or a beginner you will find a suitable activity within our men’s, women’s and co-ed leagues played in state-of-the-art turf, grass or other fun venues. Our most competitive players participate in traveling teams and attend local and national tournaments. PSM Development staff works closely with beginners to improve skills. Do not have a team? Come and join us as a guest player or text us to participate in weekly pick up games. The most important thing? At Play Soccer Miami you will find clean competition as well as friends. Here you are not just another player… you are family."
+  quote: "Mitoo makes my league communications efficient, easy to understand… and it’s really cool looking"
   tone: dark
-  link: /leagues/stories/save-time-game-updates.html
+  locations:
+    ["25.7616800, -80.1917900"]
+  sports:
+    [Soccer]
 
 - name: premier-social-sports
   title: "Premier Sport &amp; Social"
   problem: "do players alway have access to the schedules and standings"
-  quote: "quote"
+  quote: "I love the app. It’s so easy to use to access my upcoming games, results and standings."
+  admin: "Chin Kim"
+  about: "We know that sports are a huge part of your life experience and continue to take steps to improve our program. We offer the best experience around in both recreational and competitive Coed Ultimate Frisbee, Coed Soccer, Coed Dodgeball and Tournaments. We’ve been around for a long time and have had the same goal in mind since day 1: 'To provide people a great way of engaging in competitive and fun activities.'"
+  role: "President"
   tone: light
-  link: /leagues/stories/access-schedules.html
+  sports: [Foam Dodgeball, Soccer, Ultimate Frisbee, Dodgeball]
+  locations:
+    ["33.660297, -117.999227"]

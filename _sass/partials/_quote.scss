@@ -1,19 +1,18 @@
 .quote {
   @include vertical-margin-helper(1);
-  @include font-size(1.4);
 
+  &__star { @include font-size(2); }
+  &__text { @include font-size(1.6); }
+  &__owner { @include font-size(1.2); }
 
   &--big {
-    @include font-size(2.5, 1.4);
-  }
-
-  &__star {
-    @include font-size(2.8);
+    .quote__star { @include font-size(2.5); }
+    .quote__text { @include font-size(2.5, 1.4); }
+    .quote__owner { @include font-size(1.2); }
   }
 
   &__text {
     quotes: "“" "”" "‘" "’";
-
     font-weight: 400;
 
     &:before {
@@ -24,6 +23,15 @@
     &:after {
       content: close-quote;
       opacity: 0.6;
+    }
+  }
+
+  &__owner {
+    font-weight: 400;
+    font-style: italic;
+    @include rem(margin-top, 1);
+    &__role {
+        font-weight: 100;
     }
   }
 }
