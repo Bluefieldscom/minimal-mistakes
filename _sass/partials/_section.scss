@@ -43,6 +43,10 @@
   min-height: 600px;
   padding: 0;
   margin-top: $navigation-height;
+  @include respond-to(handhelds) {
+    min-height: auto;
+    @include rem(padding, 3, 0);
+  }
 }
 
 /* Features */
@@ -66,5 +70,13 @@
 .section--player-quotes {
   .quote {
     @include vertical-margin-helper(1);
+  }
+}
+
+/**/
+.page-section--center-content {
+  @include display(flex);
+  .content-center {
+    align-self: center;
   }
 }

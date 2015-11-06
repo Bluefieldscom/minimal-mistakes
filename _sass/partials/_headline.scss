@@ -2,6 +2,14 @@
   text-align: center;
   @include rem(margin-bottom, 5);
 
+  &--home {
+    margin-bottom: 0;
+    .headline__subtitle {
+      color: $c-white;
+    }
+  }
+
+
   &__title {
     font-weight: 400;
     font-size: 36px;

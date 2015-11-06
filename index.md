@@ -5,11 +5,16 @@ tags: [Jekyll, theme, responsive, blog, template]
 ---
 
 
-<section class="page-section page-section--header">
-  <div class="row">
+<section class="page-section page-section--header page-section--center-content">
+  <div class="row content-center">
     <div class="block block--8 block--centered">
-      <div class="headline">
-        <h1 class="headline__title">MITOO</h1>
+      <div class="headline headline--home">
+        <h1 class="headline__title">
+          <img
+          class="lazyload"
+          data-src="/images/logos/logo--header.png"
+          data-srcset="/images/logos/logo--header.png 1x, /images/logos/logo--header@2x.png 2x, /images/logos/logo--header@3x.png 3x"  />
+        </h1>
         <h3 class="headline__subtitle">{{site.data.copy.home.subline}}</h3>
       </div>
     </div>
