@@ -47,7 +47,7 @@ tags: [Jekyll, theme, responsive, blog, template]
             <li>{{feature}}</li>
           {% endfor %}
         </ul>
-        <a href="{{site.data.copy.home.search.link}}" class="app__download-button button button--big">Download</a>
+        <a href="{{site.data.copy.home.search.link}}" class="app__download-button button button--big">Get the app</a>
       </div>
     </div>
   </div>
@@ -80,7 +80,7 @@ tags: [Jekyll, theme, responsive, blog, template]
             <li>{{feature}}</li>
           {% endfor %}
         </ul>
-        <a href="{{site.data.copy.home.team.link}}" class="app__download-button button button--big">Download</a>
+        <a href="{{site.data.copy.home.team.link}}" class="app__download-button button button--big">Get the app</a>
       </div>
     </div>
   </div>
