@@ -1,4 +1,17 @@
 /*------------------------------------*\
+  FONTS
+\*------------------------------------*/
+$din-name: "Din";
+@include font-face($din-name, "/assets/fonts/din/DINComp-Light", 200, normal, false);
+@include font-face($din-name, "/assets/fonts/din/DINComp-LightIta", 200, italic, false);
+@include font-face($din-name, "/assets/fonts/din/DINComp", 400, normal, false);
+@include font-face($din-name, "/assets/fonts/din/DINComp-Ita", 400, italic, false);
+@include font-face($din-name, "/assets/fonts/din/DINComp-Medium", 500, normal, false);
+@include font-face($din-name, "/assets/fonts/din/DINComp-MediumIta", 500, italic, false);
+@include font-face($din-name, "/assets/fonts/din/DINComp-Bold", 700, normal, false);
+@include font-face($din-name, "/assets/fonts/din/DINComp-BoldIta", 700, italic, false);
+
+/*------------------------------------*\
   BASE
 \*------------------------------------*/
 *,

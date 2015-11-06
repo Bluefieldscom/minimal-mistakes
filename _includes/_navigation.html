@@ -1,9 +1,6 @@
 <nav role="navigation" class="navigation">
-
 	<div class="row">
 		<div class="block block--12">
-
-
 			<div class="navigation__site-name">
 				<a id="logo" href="{{site.url}}">
 					<img
@@ -12,9 +9,6 @@
             data-srcset="/images/logos/logo--nav.png 1x, /images/logos/logo--nav@2x.png 2x, /images/logos/logo--nav@3x.png 3x"  />
 				</a>
 			</div>
-
-		<!-- /.site-name -->
-
 	    <ul class="navigation__links">
 	        {% for link in site.data.navigation %}
 			    {% if link.url contains 'http' %}
@@ -27,4 +21,4 @@
 	    </ul>
 		</div>
 	</div>
-</nav><!-- /.navigation-wrapper -->
+</nav>
