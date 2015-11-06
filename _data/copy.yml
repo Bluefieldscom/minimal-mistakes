@@ -1,11 +1,11 @@
 # Home - App presentation
 home:
 
-  subline: "One place for team communication and game information"
+  subline: "Sports teams, leagues & clubs organized"
 
   search:
-    title: Find sports clubs and leagues near you.
-    description: All of your team communication and game information in one place.
+    title: Find sports near you.
+    description: "Discover sports leagues & clubs near you."
     link: http://loller.com
     features: Test
   team:
