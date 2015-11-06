@@ -10,7 +10,7 @@ tags: [Jekyll, theme, responsive, blog, template]
     <div class="block block--8 block--centered">
       <div class="headline">
         <h1 class="headline__title">MITOO</h1>
-        <h3 class="headline__subtitle">something swaggish</h3>
+        <h3 class="headline__subtitle">{{site.data.copy.home.subline}}</h3>
       </div>
     </div>
   </div>
@@ -29,17 +29,17 @@ tags: [Jekyll, theme, responsive, blog, template]
             class="app__icon lazyload"
             data-src="/images/app-icons/app-icon--search.png"
             data-srcset="/images/app-icons/app-icon--search.png 1x, /images/app-icons/app-icon--search@2x.png 2x, /images/app-icons/app-icon--search@3x.png 3x"  />
-          <span class="app__name">{{site.data.copy.apps.search.title}}</span>
+          <span class="app__name">{{site.data.copy.home.search.title}}</span>
         </h2>
         <p class="app__description">
-          {{site.data.copy.apps.search.description}}
+          {{site.data.copy.home.search.description}}
         </p>
         <ul class="app__feature-list">
-          {% for feature in site.data.copy.apps.search.features%}
+          {% for feature in site.data.copy.home.search.features%}
             <li>{{feature}}</li>
           {% endfor %}
         </ul>
-        <a href="{{site.data.copy.apps.search.link}}" class="app__download-button button button--big">Download</a>
+        <a href="{{site.data.copy.home.search.link}}" class="app__download-button button button--big">Download</a>
       </div>
     </div>
   </div>
@@ -56,17 +56,17 @@ tags: [Jekyll, theme, responsive, blog, template]
             class="app__icon lazyload"
             data-src="/images/app-icons/app-icon--team.png"
             data-srcset="/images/app-icons/app-icon--team.png 1x, /images/app-icons/app-icon--team@2x.png 2x, /images/app-icons/app-icon--team@3x.png 3x"  />
-          <span class="app__name">{{site.data.copy.apps.team.title}}</span>
+          <span class="app__name">{{site.data.copy.home.team.title}}</span>
         </h2>
         <p class="app__description">
-          {{site.data.copy.apps.team.description}}
+          {{site.data.copy.home.team.description}}
         </p>
         <ul class="app__feature-list">
-          {% for feature in site.data.copy.apps.team.features%}
+          {% for feature in site.data.copy.home.team.features%}
             <li>{{feature}}</li>
           {% endfor %}
         </ul>
-        <a href="{{site.data.copy.apps.team.link}}" class="app__download-button button button--big">Download</a>
+        <a href="{{site.data.copy.home.team.link}}" class="app__download-button button button--big">Download</a>
       </div>
     </div>
 

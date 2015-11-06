@@ -1,5 +1,8 @@
 # Home - App presentation
-apps:
+home:
+
+  subline: "Be less busy and run a successful league that players love."
+
   search:
     title: Mitoo - Search
     description: All of your team communication and game information in one place.
