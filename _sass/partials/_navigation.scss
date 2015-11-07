@@ -13,9 +13,10 @@
   }
 
   &__links {
+    float: right;
     li {
       @include font-size(1);
-      @include rem(margin-left, 2);
+      @include rem(margin-left, 1);
       @include block-align(middle);
 
       a {

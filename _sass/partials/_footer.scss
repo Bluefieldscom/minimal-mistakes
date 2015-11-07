@@ -2,4 +2,18 @@
   background: #222;
   color: $c-white;
   @include rem(padding, 3, 0);
+
+  &__title {
+    @include font-size(1.2);
+    @include rem(margin-bottom, 1);
+  }
+
+  a {
+    color: $c-white;
+    opacity: 0.8;
+    text-decoration: none;
+    &:hover {
+      opacity: 1;
+    }
+  }
 }
