@@ -1,0 +1,33 @@
+/* Heroes header */
+.header {
+  background-color: #222;
+  background-size: cover;
+  background-position: center;
+  min-height: 600px;
+  padding: 0;
+  margin-top: $navigation-height;
+
+  @include display(flex);
+  @include respond-to(handhelds) {
+    min-height: auto;
+    @include rem(padding, 3, 0);
+  }
+
+  &__content {
+    align-self: center;
+  }
+
+  &--league {
+    background-image: url('/images/backgrounds/background--league.jpg');
+  }
+
+  &--home {
+    background-image: url('/images/backgrounds/background--home.jpg');
+  }
+
+  &--story {
+    @include respond-to(handhelds) {
+      padding: 0;
+    }
+  }
+}

@@ -1,7 +1,11 @@
 .quote {
   @include vertical-margin-helper(1);
 
-  &__star { @include font-size(2); }
+  &__star {
+    color: $c-orange;
+    @include font-size(2);
+  }
+
   &__text { @include font-size(1.6); }
   &__owner { @include font-size(1.2); }
 
@@ -19,7 +23,7 @@
   &__text {
     quotes: "“" "”" "‘" "’";
     font-weight: 400;
-
+    font-style: italic;
     &:before {
       content: open-quote;
       opacity: 0.6;

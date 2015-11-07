@@ -44,29 +44,6 @@
   SECTION - ALTERNATIVE
 \*------------------------------------*/
 
-/* Heroes header */
-.page-section--header {
-  background-color: #222;
-  min-height: 600px;
-  padding: 0;
-  margin-top: $navigation-height;
-  @include respond-to(handhelds) {
-    min-height: auto;
-    @include rem(padding, 3, 0);
-  }
-}
-
-/* Story header */
-.page-section--story-header {
-  background-color: #222;
-  min-height: 600px;
-  padding: 0;
-  margin-top: $navigation-height;
-  @include respond-to(handhelds) {
-    min-height: auto;
-  }
-}
-
 /* Features */
 .page-section--feature {
   padding: 0;
@@ -88,17 +65,14 @@
   }
 }
 
-/* Player quotes */
-.section--player-quotes {
-  .quote {
-    @include vertical-margin-helper(1);
-  }
+/* row-cta */
+.page-section--row-cta {
+  @include rem(padding, 0);
 }
 
-/**/
-.page-section--center-content {
-  @include display(flex);
-  .content-center {
-    align-self: center;
+/* Player quotes */
+.page-section--player-quotes {
+  .quote {
+    @include rem(padding, 1, 0);
   }
 }

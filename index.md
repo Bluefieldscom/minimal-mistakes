@@ -5,8 +5,8 @@ tags: [Jekyll, theme, responsive, blog, template]
 ---
 
 
-<section class="page-section page-section--header page-section--center-content">
-  <div class="row content-center">
+<section class="header header--home">
+  <div class="row header__content">
     <div class="block block--8 block--centered">
       <div class="headline headline--home">
         <h1 class="headline__title">

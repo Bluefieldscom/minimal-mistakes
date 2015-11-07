@@ -116,7 +116,7 @@
 
 //Displayed as a header
 .story--header {
-  height: 100%;
+  height: 600px;
 
   @include respond-to(handhelds) {
     height: auto;
@@ -126,7 +126,7 @@
     margin-top: 0;
     @include rem(padding-right, 20);
     @include respond-to(handhelds) {
-      @include rem(padding, 4, 0);
+      @include rem(padding, 3, 0);
     }
   }
 

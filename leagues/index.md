@@ -5,8 +5,8 @@ tags:
 ---
 
 <!-- HERO HEADER -->
-<section class="page-section page-section--header">
-  <div class="screenshot-header">
+<section class="header header--league">
+  <div class="header__content">
     <div class="screenshot"></div>
   </div>
 </section>
@@ -192,23 +192,7 @@ tags:
   </div>
 </section>
 
-<section class="page-section">
-  <div class="row">
-    <div class="block block--8 block--centered text-center">
-      <img
-        class="lazyload"
-        data-src="/images/graphics/graphic--free.png"
-        data-srcset="/images/graphics/graphic--free.png 1x, /images/graphics/graphic--free@2x.png 2x, /images/graphics/graphic--free@3x.png 3x"  />
-      <h2 class="page-section__title">Sports messenger is <b>free</b> for leagues of any size</h2>
-      <p>
-        <a class="button button--big" href="/leagues/try-it-now.html">Try it now</a>
-        <br>
-        <small>We have an VIP package</small>
-      </p>
-    </div>
-  </div>
-</section>
-
+{% include _row-cta.html %}
 
 <!-- Player quotes -->
 <section class="page-section page-section--player-quotes">
@@ -218,10 +202,13 @@ tags:
       <ul>
         {% for quote in site.data.player_quote %}
         <li class="quote">
-            <h4 class="quote__star" >{% for i in (1..quote.star) %}*{% endfor %}</h4>
-            <p class="quote__text">
-              {{quote.quote}}
-            </p>
+            <h4 class="quote__star" >{% for i in (1..quote.star) %}
+              <img
+                class="lazyload "
+                data-src="/images/icons/icon--star.png"
+                data-srcset="/images/icons/icon--star.png 1x, /images/icons/icon--star@2x.png 2x, /images/icons/icon--star@3x.png 3x"  />
+              {% endfor %}</h4>
+            <p class="quote__text">{{quote.quote}}</p>
         </li>
         {% endfor %}
       </ul>
