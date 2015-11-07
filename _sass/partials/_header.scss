@@ -19,6 +19,19 @@
 
   &--league {
     background-image: url('/images/backgrounds/background--league.jpg');
+    justify-content: center;
+    @include respond-to(handhelds) {
+      @include rem(padding, 3, 0, 0, 0);
+      img {
+        max-height: 300px;
+      }
+    }
+    img {
+      display: block;
+    }
+    .header__content {
+      align-self: flex-end;
+    }
   }
 
   &--home {

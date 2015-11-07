@@ -7,7 +7,10 @@ tags:
 <!-- HERO HEADER -->
 <section class="header header--league">
   <div class="header__content">
-    <div class="screenshot"></div>
+    <img
+      class="lazyload"
+      data-src="/images/graphics/graphic--iphone-big-league.png"
+      data-srcset="/images/graphics/graphic--iphone-big-league.png 1x, /images/graphics/graphic--iphone-big-league@2x.png 2x, /images/graphics/graphic--iphone-big-league@3x.png 3x"  />
   </div>
 </section>
 
