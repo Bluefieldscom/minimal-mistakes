@@ -27,7 +27,6 @@ tags:
   <div class="row">
 
     <div class="block block--12">
-
         <ul class="benefits-list">
           <li class="benefit benefit--active">
               <img
@@ -183,7 +182,6 @@ tags:
               class="lazyload story__league-logo"
               data-src="/images/story-logos/story-logo--{{league.name}}.png"
               data-srcset="/images/story-logos/story-logo--{{league.name}}.png 1x, /images/story-logos/story-logo--{{league.name}}@2x.png 2x, /images/story-logos/story-logo--{{league.name}}@3x.png 3x"  />
-
               {% if league.showtitle == true %}<span class="story__league-title">{{league.title}}</span>{% endif %}
             </h4>
             <p class="story__problem">{{league.problem}}</p>
