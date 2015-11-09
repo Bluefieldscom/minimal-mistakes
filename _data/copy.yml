@@ -4,19 +4,21 @@ home:
   subline: "Sports teams, leagues & clubs organized"
 
   search:
-    title: Find sports near you.
-    description: "Discover sports leagues & clubs near you."
-    link: http://loller.com
-    features: Test
-  team:
-    title: Team communication solved.
-    description: All of your team communication and game information in one place.
-    link: http://loller.com/team
+    title: Local sports
+    description: Search and join league
+    link:
+      appstore: https://itunes.apple.com/us/app/mitoo-for-social-sports/id957600492?mt=8
+      playstore: https://play.google.com/store/apps/details?id=co.mitoo.sashimi&hl=en
     features:
       - Upcoming games, recent results and league standings that are always up-to-date
-      - Real-time notifications that keep you in the loop. No one likes turning-up to a game that has been canceled!
-      - Messaging for your team—Organize and share photos with everyone in your team
-      - LeagueAlerts™—Receive important messages direct from the league
+  team:
+    title: Mitoo
+    description: Team communication solved.
+    link:
+      appstore: https://itunes.apple.com/us/app/mitoo-for-social-sports/id957600492?mt=8
+      playstore: https://play.google.com/store/apps/details?id=co.mitoo.sashimi&hl=en
+    features:
+      - Upcoming games, recent results and league standings that are always up-to-date
 
 league:
 

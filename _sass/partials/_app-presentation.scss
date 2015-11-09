@@ -1,22 +1,15 @@
 .app {
-  &__icon, &__name {
-    @include block-align(middle);
-  }
-
+  text-align: center;
+  @include rem(padding, 2, 0);
   &__icon {}
 
   &__name {
     font-weight: 100;
-    @include rem(margin-left, 1);
     @include font-size(2);
-    @include respond-to(handhelds) {
-      margin-left: 0;
-      @include rem(margin-top, 1);
-    }
+    @include rem(margin-top, 1);
   }
 
   &__description {
-    @include rem(margin-top, 2);
     @include font-size(1.6);
     @include respond-to(handhelds) {
       @include rem(margin-top, 0.5);
@@ -28,7 +21,7 @@
     @include rem(margin-top, 1);
     @include font-size(1.2);
     @include respond-to(handhelds) {
-        @include font-size(1);
+      @include font-size(1);
     }
     li {
       @include rem(margin-top, 0.5);
@@ -38,35 +31,9 @@
 
   &__download-button {
     @include rem(margin-top, 2);
-  }
-
-
-  &--team {
-    text-align: right;
-
-    .app__icon {
-      float:right;
-      @include respond-to(handhelds) {
-        float: none;
-      }
-    }
-    .app__name {
-      margin-left: 0;
-      @include rem(margin-right, 1);
-    }
-  }
-}
-
-@include respond-to(handhelds) {
-  .app {
-    text-align: center;
-    &__icon {
-      display: block;
-      margin: 0 auto;
-    }
-
-    &__description {
-      @include rem(margin-top, 1);
+    display: inline-block;
+    img:first-of-type {
+      @include rem(margin-right, 0.5);
     }
   }
 }
