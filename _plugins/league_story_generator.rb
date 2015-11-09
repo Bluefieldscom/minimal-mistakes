@@ -8,7 +8,7 @@ module Jekyll
       @name = 'index.html'
 
       self.process(@name)
-      self.read_yaml(File.join(base, '_layouts'), 'league-story.html')
+      self.read_yaml(File.join(base, '_templates'), 'league-story.md')
 
       self.data['league_story'] = league_story
       self.data['title'] = league_story['title']
