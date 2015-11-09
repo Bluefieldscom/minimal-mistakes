@@ -1,3 +1,9 @@
-// input {
-//   background: #fff;
-// }
+label {
+  display: inline-block;
+  color: #555;
+  @include vertical-margin-helper(0.5);
+}
+
+input {
+  @include vertical-margin-helper(1);
+}

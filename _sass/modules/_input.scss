@@ -3,9 +3,9 @@
 \*------------------------------------*/
 $input-bg: $c-white;
 $input-text-color: $c-black;
-$input-text-border: $c-grey;
+$input-text-border: #ddd;
 $input-text-border-focus: $c-primary;
-$input-text-color-placeholder: $c-grey;
+$input-text-color-placeholder: #ccc;
 $input-radius: $base-radius;
 
 /*------------------------------------*\
@@ -47,6 +47,11 @@ input, textarea, select {
   @include placeholder {
     font-style: italic;
     color: $input-text-color-placeholder;
+  }
+
+  &.input--big {
+    @include font-size(1.5);
+    @include round-px("padding", 1.5 / 3, 1.5 / 2);
   }
 }
 
