@@ -36,11 +36,6 @@ tags: [Jekyll, theme, responsive, blog, template]
         <p class="app__description">
           {{site.data.copy.home.team.description}}
         </p>
-        <ul class="app__feature-list">
-          {% for feature in site.data.copy.home.team.features%}
-            <li>{{feature}}</li>
-          {% endfor %}
-        </ul>
         <a href="/leagues" class="app__download-button button button--big">Learn more</a>
       </div>
     </div>
@@ -55,11 +50,6 @@ tags: [Jekyll, theme, responsive, blog, template]
         <p class="app__description">
           {{site.data.copy.home.search.description}}
         </p>
-        <ul class="app__feature-list">
-          {% for feature in site.data.copy.home.search.features%}
-            <li>{{feature}}</li>
-          {% endfor %}
-        </ul>
         <a class="app__download-button" href="{{site.data.copy.home.search.link.appstore}}" target="_blank">
           <img
             class="app__icon lazyload"

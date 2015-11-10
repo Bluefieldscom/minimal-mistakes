@@ -9,16 +9,12 @@ home:
     link:
       appstore: https://itunes.apple.com/us/app/mitoo-for-social-sports/id957600492?mt=8
       playstore: https://play.google.com/store/apps/details?id=co.mitoo.sashimi&hl=en
-    features:
-      - Upcoming games, recent results and league standings that are always up-to-date
   team:
     title: Sports Messenger
     description: One place for team communication and league info
     link:
       appstore: https://itunes.apple.com/us/app/mitoo-for-social-sports/id957600492?mt=8
       playstore: https://play.google.com/store/apps/details?id=co.mitoo.sashimi&hl=en
-    features:
-      - Upcoming games, recent results and league standings that are always up-to-date
 
 league:
 

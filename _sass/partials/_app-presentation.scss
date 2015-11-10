@@ -10,21 +10,12 @@
   }
 
   &__description {
-    @include font-size(1.6);
+    @include font-size(1.4);
+    color: #666;
     @include respond-to(handhelds) {
       @include rem(margin-top, 0.5);
     }
   }
-
-  &__feature-list {
-    @include rem(margin-top, 1);
-    @include font-size(1.2);
-    li {
-      @include rem(margin-top, 0.5);
-      color: #777;
-    }
-  }
-
   &__download-button {
     @include rem(margin-top, 2);
     display: inline-block;
