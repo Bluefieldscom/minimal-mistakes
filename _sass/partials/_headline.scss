@@ -1,6 +1,6 @@
 .headline {
   text-align: center;
-  @include rem(margin-bottom, 5);
+  @include rem(margin-bottom, 3);
 
   &--home {
     margin-bottom: 0;

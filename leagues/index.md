@@ -18,10 +18,9 @@ tags:
 <!-- FEATURES -->
 <section class="page-section page-section--benefit">
   <div class="row">
-    <div class="block block--8 block--centered">
+    <div class="block block--10 block--centered">
       <div class="headline">
         <h1 class="headline__title">{{site.data.copy.league.headline}}</h1>
-        <!-- <h3 class="headline__subtitle">{{site.data.copy.league.subline}}</h3> -->
       </div>
     </div>
   </div>
