@@ -25,17 +25,28 @@ $('.benefit').on('click', function() {
 
 $("#league-request").on('submit', function(event) {
   event.preventDefault();
+
   var form = $(this);
+
   $.ajax({
     type: "POST",
     url: 'api',
     data: form.serializeObject(),
     success: function() {
+      var text = $('button[type="submit"]', form).text();
       $('button[type="submit"]', form).addClass('button--success').text(form.data('success'));
       $(':input', form).not(':button, :submit, :reset, :hidden').val('');
+
+      setTimeout(function() {
+        $('button[type="submit"]', form).removeClass('button--success').text(text);
+      }, 2000);
     },
     error: function() {
+      var text = $('button[type="submit"]', form).text();
       $('button[type="submit"]', form).addClass('button--error').text(form.data('error'));
+      setTimeout(function() {
+        $('button[type="submit"]', form).removeClass('button--error').text(text);
+      }, 2000);
     }
   });
 
