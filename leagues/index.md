@@ -21,7 +21,7 @@ tags:
     <div class="block block--8 block--centered">
       <div class="headline">
         <h1 class="headline__title">{{site.data.copy.league.headline}}</h1>
-        <h3 class="headline__subtitle">{{site.data.copy.league.subline}}</h3>
+        <!-- <h3 class="headline__subtitle">{{site.data.copy.league.subline}}</h3> -->
       </div>
     </div>
   </div>
@@ -153,7 +153,7 @@ tags:
 <section class="page-section">
   <div class="row">
     <div class="block block--12">
-      <h2 class="page-section__title text-center">Our most valued leagues</h2>
+      <h2 class="page-section__title text-center">Just a few of our valued leagues</h2>
       <ul class="league-grid">
         {% for league in site.data.league_logos %}
           <li class="league-grid__league">

@@ -8,8 +8,8 @@ tags:
 <section class="page-section page-section--try-it-now">
   <div class="row">
     <div class="block block--6 block--centered">
-      <h2 class="page-section__title text-center">Interested in using Mitoo?</h2>
-      <p class="page-section__text text-center">Fill out the request invite flow underneath and we'll get back to you ASAP.</p>
+      <h2 class="page-section__title text-center">Get Mitoo for your league</h2>
+      <p class="page-section__text text-center">Fill out the form below and we'll get back to you.</p>
       <form id="league-request" data-success="Request sent!" data-error="Something wrong happened!">
         <label>Name</label>
         <input name="name" class="input--big" type="text" placeholder="Jon doe" required >
