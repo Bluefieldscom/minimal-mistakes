@@ -5,7 +5,7 @@ home:
 
   search:
     title: Local Sports
-    description: Search and join league
+    description: Discover sports leagues near you
     link:
       appstore: https://itunes.apple.com/us/app/mitoo-for-social-sports/id957600492?mt=8
       playstore: https://play.google.com/store/apps/details?id=co.mitoo.sashimi&hl=en
@@ -13,7 +13,7 @@ home:
       - Upcoming games, recent results and league standings that are always up-to-date
   team:
     title: Sports Messenger
-    description: Team communication solved.
+    description: One place for team communication and league info
     link:
       appstore: https://itunes.apple.com/us/app/mitoo-for-social-sports/id957600492?mt=8
       playstore: https://play.google.com/store/apps/details?id=co.mitoo.sashimi&hl=en
@@ -23,7 +23,7 @@ home:
 league:
 
   # Headlines
-  headline: "Be the best experience for players"
+  headline: "Be less busy and run a successful league"
   subline: "Be less busy and run a successful league that players love."
 
   # Sections
@@ -45,24 +45,24 @@ league:
 
     # Integration
     integration:
-      title: "Works with your league tool"
-      description: "Mitoo keeps track of changes <b>on your existing tools</b>. Any tool or website works! There's nothing new to learn."
-      description_2: "Setup is easy, within a few days your players can be using our app for your league. Need any help? we're available on the phone and email."
+      title: "Works with your existing website"
+      description: "Any league management tool or website works with Mitoo! Once setup, we track the changes you make and keep everybody informed."
+      description_2: "Getting setup is easy too... your league can be on Mitoo in just a few days. Need any help? we're available on the phone and email."
       link: "Learn how it works"
 
     # all in one place
     allinone:
       title: "Players have one place for everything."
-      description: "From game times, locations and standings to messages from the team and league, players have one place to look to know what's going on."
+      description: "From <b>game times, locations and standings</b> to <b>team conversations and messages from the league</b>, players have one place to look to know what's going on."
 
     # team messaging
     team_messaging:
       title: "Group messaging for the whole team."
-      description: "Team chats are setup automatically—so all the players are involved. Even players without the app receive email updates."
-      description_2: "It's great for captains who need to make sure players turn-up on time. And great for sharing team photos and bringing players together off-the-field."
+      description: "Team chats are <b>setup automatically</b>—so all the players are involved. Even players without the app receive email updates."
+      description_2: "It's great for making sure players turn-up on time, sharing team photos and bringing players together off-the-field."
 
     # Player in the loop
     notifications:
       title: "Players always up-to-date."
-      description: "Players are notified about important changes in real-time as they are made. Saving your staff time and keeping players organised."
-      description_2: "Players customize their notifications to their liking."
+      description: "Notifications are generated as changes are made: saving your staff time and keeping players up-to-date and organized."
+      description_2: "Players can customize their notifications to their liking."
