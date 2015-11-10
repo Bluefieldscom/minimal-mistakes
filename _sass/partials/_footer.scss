@@ -14,7 +14,7 @@
     text-decoration: none;
     display: inline-block;
     @include rem(padding, 0.5, 0);
-    @include rem(margin-top, 0.5);
+    @include rem(margin-top, 0.7);
     &:hover {
       opacity: 1;
     }
