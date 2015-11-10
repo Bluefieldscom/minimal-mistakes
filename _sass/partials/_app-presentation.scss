@@ -13,16 +13,12 @@
     @include font-size(1.6);
     @include respond-to(handhelds) {
       @include rem(margin-top, 0.5);
-      @include font-size(1.4);
     }
   }
 
   &__feature-list {
     @include rem(margin-top, 1);
     @include font-size(1.2);
-    @include respond-to(handhelds) {
-      @include font-size(1);
-    }
     li {
       @include rem(margin-top, 0.5);
       color: #777;

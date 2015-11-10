@@ -20,8 +20,9 @@
 
   &__image {
     @include rem(margin-bottom, 2);
+    max-width: 100%;
     img {
-      max-widht: 100%;
+      max-width: 100%;
     }
   }
 
@@ -77,6 +78,13 @@
   }
 }
 
+.page-section--league-story-info {
+  @include respond-to(handhelds) {
+    .block {
+      @include vertical-margin-helper(2);
+    }
+  }
+}
 
 .page-section--404 {
   h1 {

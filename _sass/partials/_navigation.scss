@@ -22,6 +22,7 @@
       a {
         text-decoration: none;
         color: $c-white;
+        @include rem(padding, 1, 0);
         &:hover {
           text-decoration: underline;
         }

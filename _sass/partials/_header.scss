@@ -9,7 +9,7 @@
   @include display(flex);
   @include respond-to(handhelds) {
     min-height: auto;
-    @include rem(padding, 3, 0);
+    @include rem(padding, 4, 0);
   }
 
   &__content {
@@ -35,6 +35,11 @@
 
   &--home {
     background-image: url('/images/backgrounds/background--home.jpg');
+    @include respond-to(handhelds) {
+      .headline__title img {
+        max-width: 200px;
+      }
+    }
   }
 
   &--story {

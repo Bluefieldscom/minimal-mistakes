@@ -44,12 +44,13 @@ tags:
     <div class="block block--6">
       <h2 class="page-section__title">Locations</h2>
       <div id="map" style="width:100%;height:250px;"></div>
-      <script>
-        var map = new googleMap("map");
-        {% for location in page.league_story.locations%}
-          map.addLocation({{location}});
-        {% endfor %}
-      </script>
     </div>
   </div>
 </section>
+
+<script>
+  var map = new googleMap("map");
+  {% for location in page.league_story.locations%}
+    map.addLocation({{location}});
+  {% endfor %}
+</script>

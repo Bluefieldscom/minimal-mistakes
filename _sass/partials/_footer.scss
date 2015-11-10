@@ -12,8 +12,17 @@
     color: $c-white;
     opacity: 0.8;
     text-decoration: none;
+    display: inline-block;
+    @include rem(padding, 0.5, 0);
+    @include rem(margin-top, 0.5);
     &:hover {
       opacity: 1;
+    }
+  }
+
+  &__section {
+    @include respond-to(handhelds) {
+      @include vertical-margin-helper(2);
     }
   }
 }

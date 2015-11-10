@@ -108,7 +108,15 @@
   .story__content {
     @include rem(padding, 0, 30, 0, 3);
     @include respond-to(handhelds) {
-      @include rem(padding, 2, 6, 2, 3);
+      @include rem(padding, 2, 6, 2, 2);
+    }
+  }
+
+  .story__league-title {
+    @include respond-to(handhelds) {
+      margin-left: 0;
+      display: block;
+      @include rem(margin-top, 1);
     }
   }
 }
