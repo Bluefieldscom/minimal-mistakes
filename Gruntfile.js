@@ -2,17 +2,6 @@
 module.exports = function(grunt) {
 
   grunt.initConfig({
-    jshint: {
-      options: {
-        jshintrc: '.jshintrc'
-      },
-      all: [
-        'Gruntfile.js',
-        'assets/js/*.js',
-        '!assets/js/plugins/*.js',
-        '!assets/js/scripts.min.js'
-      ]
-    },
     uglify: {
       dist: {
         files: {
@@ -42,9 +31,9 @@ module.exports = function(grunt) {
     watch: {
       js: {
         files: [
-          '<%= jshint.all %>'
+          'assets/js/**/*.js'
         ],
-        tasks: ['jshint', 'uglify']
+        tasks: ['uglify']
       }
     },
     clean: {

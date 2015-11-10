@@ -57,6 +57,14 @@ $button-radius: $base-radius;
     @include font-size(1.5);
     @include round-px("padding", 1.5 / 3, 1.5);
   }
+
+  &.button--success {
+    @include button($c-green);
+  }
+
+  &.button--error {
+    @include button($c-red);
+  }
 }
 
 a.button {
