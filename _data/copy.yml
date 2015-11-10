@@ -4,7 +4,7 @@ home:
   subline: "Sports teams, leagues & clubs organized"
 
   search:
-    title: Local sports
+    title: Local Sports
     description: Search and join league
     link:
       appstore: https://itunes.apple.com/us/app/mitoo-for-social-sports/id957600492?mt=8
@@ -12,7 +12,7 @@ home:
     features:
       - Upcoming games, recent results and league standings that are always up-to-date
   team:
-    title: Mitoo
+    title: Sports Messenger
     description: Team communication solved.
     link:
       appstore: https://itunes.apple.com/us/app/mitoo-for-social-sports/id957600492?mt=8
@@ -31,12 +31,12 @@ league:
 
     # 3 mains
     autopilot:
-      title: "Keep players in-the-loop without the effort"
-      description: "Automatically let players know when games get moved or results come in. Put the latest schedule, results and standings in player's hands. All without lifting a finger."
+      title: "Save time and communicate constantly"
+      description: "Put the latest schedule, results and standings in players' hands. Mitoo automatically notifies players when things change—there's no need to rely on email or social media posts."
       link: "Find out how your staff can save time"
     messaging:
       title: "Reduce drop-outs and forfeits"
-      description: "Teams are more organized when players always have the latest schedule in their hand and an easy way to message the rest of the team."
+      description: "Give players a way to organize themselves and have fun off-the-field with team messaging."
       link: "Learn about reducing forfeits with Mitoo"
     listing:
       title: "Watch your league grow with happy players"
