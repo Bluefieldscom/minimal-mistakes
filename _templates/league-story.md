@@ -43,14 +43,10 @@ tags:
     </div>
     <div class="block block--6">
       <h2 class="page-section__title">Locations</h2>
-      <div id="map" style="width:100%;height:250px;"></div>
+      <img src="https://maps.googleapis.com/maps/api/staticmap?
+    &size=470x300
+    &maptype=roadmap
+    {% for location in page.league_story.locations%}&markers=color:black%7Clabel:C%7C{{location}}{% endfor %}&key=AIzaSyDhd-b1uEVX9WRziK4ymfKxBo129UTJcHk" >
     </div>
   </div>
 </section>
-
-<script>
-  var map = new googleMap("map");
-  {% for location in page.league_story.locations%}
-    map.addLocation({{location}});
-  {% endfor %}
-</script>

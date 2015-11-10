@@ -16,9 +16,11 @@ module.exports = function(grunt) {
     uglify: {
       dist: {
         files: {
-          'assets/js/scripts.min.js': [
+          'assets/js/app.min.js': [
+            'assets/js/vendor/modernizr-2.7.1.custom.min.js',
+            'assets/js/vendor/jquery-1.9.1.min.js',
             'assets/js/plugins/*.js',
-            'assets/js/_*.js'
+            'assets/js/main.js'
           ]
         }
       }
@@ -37,22 +39,12 @@ module.exports = function(grunt) {
         }]
       }
     },
-    svgmin: {
-      dist: {
-        files: [{
-          expand: true,
-          cwd: 'images/',
-          src: '{,*/}*.svg',
-          dest: 'images/'
-        }]
-      }
-    },
     watch: {
       js: {
         files: [
           '<%= jshint.all %>'
         ],
-        tasks: ['jshint','uglify']
+        tasks: ['jshint', 'uglify']
       }
     },
     clean: {
@@ -69,20 +61,16 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-imagemin');
   grunt.loadNpmTasks('grunt-svgmin');
+  grunt.loadNpmTasks('grunt-criticalcss');
 
   // Register tasks
   grunt.registerTask('default', [
     'clean',
     'uglify',
-    'imagemin',
-    'svgmin'
+    'imagemin'
   ]);
   grunt.registerTask('dev', [
     'watch'
-  ]);
-  grunt.registerTask('images', [
-    'imagemin',
-    'svgmin'
   ]);
 
 };
