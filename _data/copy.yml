@@ -7,8 +7,8 @@ home:
     title: Local Sports
     description: Discover sports leagues near you
     link:
-      appstore: https://itunes.apple.com/us/app/mitoo-for-social-sports/id957600492?mt=8
-      playstore: https://play.google.com/store/apps/details?id=co.mitoo.sashimi&hl=en
+      appstore: "https://itunes.apple.com/us/app/local-sports-by-mitoo-find/id1041141144?ls=1&mt=8"
+      playstore: https://play.google.com/store/apps/details?id=co.mitoo.localsports
   team:
     title: Sports Messenger
     description: One place for team communication and league info
