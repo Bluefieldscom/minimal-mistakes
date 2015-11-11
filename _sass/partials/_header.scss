@@ -8,7 +8,7 @@
 
   @include display(flex);
   @include respond-to(handhelds) {
-    min-height: auto;
+    min-height: 0;
     @include rem(padding, 4, 0);
   }
 
@@ -37,7 +37,7 @@
     background-image: url('/images/backgrounds/background--home.jpg');
     min-height: 400px;
     @include respond-to(handhelds) {
-      min-height: auto;
+      min-height: 0;
     }
     @include respond-to(handhelds) {
       .headline__title img {
