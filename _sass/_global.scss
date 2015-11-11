@@ -83,6 +83,19 @@ body {
   }
 }
 
+img {
+  @include transition(opacity 0.1s $transition-easing);
+}
+
+img.lazyload {
+  opacity: 0;
+}
+
+img.lazyloaded {
+  opacity: 1;
+}
+
+
 //
 //.videoWrapper {
 //	position: relative;
