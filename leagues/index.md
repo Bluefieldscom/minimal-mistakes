@@ -64,7 +64,7 @@ tags:
 <!-- NO IMPLEMENTATION -->
 <section class="page-section page-section--special">
   <div class="row">
-    <div class="block block--6 block--centered text-center">
+    <div class="block block--7 block--centered text-center">
       <div>
         <img
           class="page-section__image lazyload"
@@ -149,7 +149,7 @@ tags:
 
 
 <!-- OUR LEAGUES -->
-<section class="page-section">
+<section class="page-section page-section--grid-league">
   <div class="row">
     <div class="block block--12">
       <h2 class="page-section__title text-center">Just a few of our valued leagues</h2>

@@ -13,7 +13,7 @@
 
   &__text {
     font-weight: 100;
-    color: #7B7B7B;
+    color: #6D6D6D;
     @include font-size(1.2);
     @include vertical-margin-helper(0.5);
   }
@@ -75,6 +75,13 @@
 .page-section--player-quotes {
   .quote {
     @include rem(padding, 1, 0);
+  }
+}
+
+.page-section--grid-league {
+  background: #fafafa;
+  .league-grid {
+    background: white;
   }
 }
 
