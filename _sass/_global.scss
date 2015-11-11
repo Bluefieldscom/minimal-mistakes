@@ -68,6 +68,14 @@ body {
   #main {
     flex: 1 0 auto;
     margin-top: $navigation-height;
+    //@include display(flex);
+    //@include flex-direction(column);
+    //@include align-items(center);
+    //@include justify-content(center);
+    //#main_wrapper {
+    //  width: 100%;
+    //  @include align-self(center);
+    //}
   }
 
   .navigation, .footer {
