@@ -1,20 +1,22 @@
 .footer {
-  background: #222;
-  color: $c-white;
+  background: #fafafa;
+  border-top: 1px solid #ddd;
+
   @include rem(padding, 3, 0);
 
   &__title {
+    color: #666;
     @include font-size(1.2);
     @include rem(margin-bottom, 1);
   }
 
   a {
-    color: $c-white;
     opacity: 0.8;
+    color: #666;
     text-decoration: none;
     display: inline-block;
     @include rem(padding, 0.5, 0);
-    @include rem(margin-top, 0.7);
+
     &:hover {
       opacity: 1;
     }
