@@ -15,7 +15,7 @@ tags: [Jekyll, theme, responsive, blog, template]
           data-src="/images/logos/logo--header.png"
           data-srcset="/images/logos/logo--header.png 1x, /images/logos/logo--header@2x.png 2x, /images/logos/logo--header@3x.png 3x"  />
         </h1>
-        <h3 class="headline__subtitle">{{site.data.copy.home.subline}}</h3>
+        <!-- <h3 class="headline__subtitle">{{site.data.copy.home.subline}}</h3> -->
       </div>
     </div>
   </div>
