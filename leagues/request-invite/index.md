@@ -12,11 +12,14 @@ tags:
       <p class="page-section__text text-center">Fill out the form below and we'll get back to you.</p>
       <form id="league-request" data-success="Request sent!" data-error="Something wrong happened!">
         <label>Name</label>
-        <input name="name" class="input--big" type="text" placeholder="Jon doe" required >
+        <input name="name" class="input--big" type="text" placeholder="Jon doe" required />
         <label>Email</label>
-        <input name="email" class="input--big" type="email" placeholder="john@doe.email" required >
+        <input name="email" class="input--big" type="email" placeholder="john@doe.email" required />
         <label>League website</label>
-        <input name="website" class="input--big" type="url" placeholder="Your league url" required >
+        <input name="website" class="input--big" type="url" placeholder="Your league url" required />
+
+        <input type="hidden" name="_subject" value="New League Invite Request!" />
+
         <button class="button button--big button--full-width" type="submit">Request Invite</button>
       </form>
     </div>

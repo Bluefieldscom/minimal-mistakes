@@ -30,7 +30,7 @@ $("#league-request").on('submit', function(event) {
 
   $.ajax({
     type: "POST",
-    url: 'api',
+    url: '//formspree.io/piers@mitoo.co',
     data: form.serializeObject(),
     success: function() {
       var text = $('button[type="submit"]', form).text();
