@@ -11,10 +11,13 @@
 - name: tri-sports
 - name: central-virginia-football
 - name: playemore
-- name: rmcaa
-- name: savannah
 - name: athens-community-soccer
 - name: sarc
 - name: sports-monkey
 - name: souther-sports-leagues
 - name: lts-chicago
+- name: play-in-the-bay
+- name: dallas-sport
+# Uncomment by group of five
+# - name: rmcaa
+# - name: savannah

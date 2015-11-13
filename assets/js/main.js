@@ -32,6 +32,7 @@ $("#league-request").on('submit', function(event) {
     type: "POST",
     url: '//formspree.io/piers@mitoo.co',
     data: form.serializeObject(),
+    dataType: "json",
     success: function() {
       var text = $('button[type="submit"]', form).text();
       $('button[type="submit"]', form).addClass('button--success').text(form.data('success'));
