@@ -1,0 +1,14 @@
+.metadata-list {
+  font-size: 0;
+  &__meta {
+    border: 1px solid #ddd;
+    color: #888;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 3px;
+    padding: 3px 6px;
+    margin-right: 3px;
+    margin-bottom: 3px;
+    @include font-size(1);
+  }
+}

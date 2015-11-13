@@ -27,17 +27,14 @@ tags:
 </section>
 <section class="page-section page-section--league-story-info">
   <div class="row">
-    <div class="block block--4">
+    <div class="block block--6">
       <h2 class="page-section__title">About</h2>
       <p class="page-section__text">
         {{ page.league_story.about}}
       </p>
-    </div>
-    <div class="block block--2">
-      <h2 class="page-section__title">Sports</h2>
-      <ul class="page-section__text">
+      <ul class="metadata-list">
         {% for sport in page.league_story.sports%}
-          <li>{{sport}}</li>
+          <li class="metadata-list__meta">{{sport}}</li>
         {% endfor %}
       </ul>
     </div>

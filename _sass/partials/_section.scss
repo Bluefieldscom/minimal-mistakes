@@ -80,6 +80,9 @@
 
 .page-section--grid-league {
   background: #fafafa;
+  @include respond-to(handhelds) {
+    display: none;
+  }
   .league-grid {
     background: white;
   }

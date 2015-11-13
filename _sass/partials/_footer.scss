@@ -5,9 +5,11 @@
   @include rem(padding, 3, 0);
 
   &__title {
-    color: #666;
+    color: #959595;
+    text-transform: uppercase;
     @include font-size(1.2);
     @include rem(margin-bottom, 1);
+    line-height: 1;
   }
 
   a {
