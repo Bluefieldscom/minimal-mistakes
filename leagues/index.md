@@ -149,7 +149,7 @@ tags:
 
 
 <!-- OUR LEAGUES -->
-<section class="page-section page-section--grid-league">
+<section class="page-section page-section--grid-league" id="leagues">
   <div class="row">
     <div class="block block--12">
       <h2 class="page-section__title text-center">Just a few of our valued leagues</h2>
@@ -169,7 +169,7 @@ tags:
 
 
 <!-- League stories -->
-<section class="page-section page-section--league-stories">
+<section class="page-section page-section--league-stories" id="league-stories">
   <div class="row">
     <h2 class="page-section__title text-center">League Stories</h2>
     <ul>

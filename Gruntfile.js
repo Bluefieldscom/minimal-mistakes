@@ -51,12 +51,13 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-imagemin');
   grunt.loadNpmTasks('grunt-svgmin');
   grunt.loadNpmTasks('grunt-criticalcss');
+  grunt.loadNpmTasks('grunt-newer');
 
   // Register tasks
   grunt.registerTask('default', [
     'clean',
-    'uglify',
-    'imagemin'
+    'newer:uglify',
+    'newer:imagemin'
   ]);
   grunt.registerTask('dev', [
     'watch'
