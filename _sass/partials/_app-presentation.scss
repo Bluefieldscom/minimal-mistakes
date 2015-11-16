@@ -23,4 +23,10 @@
       @include rem(margin-right, 0.5);
     }
   }
+
+  .learn-more {
+    display: inline-block;
+    @include font-size(1.4);
+    @include rem(margin-top, 0.5);
+  }
 }

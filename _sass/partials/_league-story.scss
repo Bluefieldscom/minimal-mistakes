@@ -104,6 +104,15 @@
     height: auto;
   }
 
+
+  &:hover:before {
+    background: rgba(0, 0, 0, 0.5);
+  }
+
+  &.story--light:hover:before  {
+    background: rgba(255, 255, 255, 0.5);
+  }
+
   .story__content {
     @include rem(padding, 0, 30, 0, 3);
     @include respond-to(handhelds) {

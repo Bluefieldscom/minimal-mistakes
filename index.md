@@ -1,7 +1,7 @@
 ---
 layout: home
-excerpt: 
-tags: 
+excerpt:
+tags:
 ---
 
 
@@ -36,7 +36,7 @@ tags:
         <p class="app__description">
           {{site.data.copy.home.team.description}}
         </p>
-        <a href="/leagues" class="app__download-button button button--big">Learn more</a>
+        <a class="learn-more" href="/leagues">Learn more</a>
       </div>
     </div>
 
