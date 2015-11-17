@@ -15,13 +15,21 @@ tags:
         <input name="name" class="input--big" type="text" placeholder="Jon doe" required />
         <label>Email</label>
         <input name="email" class="input--big" type="email" placeholder="john@doe.email" required />
-        <label>League website</label>
-        <input name="website" class="input--big" type="text" placeholder="Your league url" required />
+        <label>League name</label>
+        <input name="leauge_name" class="input--big" type="text" placeholder="Your league name" required />
         <label>Phone Number</label>
         <input name="phone" class="input--big" type="tel" placeholder="Your phone number" />
         <input type="hidden" name="_subject" value="New League Invite Request!" />
         <input type="hidden" name="_next" value="/" />
 
+        <label>You are a</label>
+        <div class="select-container">
+          <select class="input input--big" name="role" required>
+              <option>League admin</option>
+            <option>Team captain</option>
+            <option>Player</option>
+          </select>
+        </div>
         <button class="button button--big button--full-width" type="submit">Request Invite</button>
       </form>
     </div>

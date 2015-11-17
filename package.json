@@ -21,6 +21,7 @@
     "grunt-contrib-watch": "~0.5.2",
     "grunt-newer": "^1.1.1",
     "grunt-recess": "~0.3.5",
-    "grunt-svgmin": "~0.2.0"
+    "grunt-svgmin": "~0.2.0",
+    "grunt-uncss": "^0.4.4"
   }
 }

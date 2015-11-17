@@ -4,6 +4,6 @@ label {
   @include vertical-margin-helper(0.5);
 }
 
-input {
+input, textarea, select, .select-container {
   @include vertical-margin-helper(1);
 }
