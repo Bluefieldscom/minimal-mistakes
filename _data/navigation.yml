@@ -1,6 +1,6 @@
 - title: Leagues
   url: /leagues/
-  suburls:
+  # suburls:
     # - url: "autopilot"
     #   title: "Autopilot"
     # - url: "messaging"
