@@ -8,25 +8,67 @@
   @include rem(padding, 1.5, 0);
 
 
-  &__site-name, &__links {
+  &__site-name {
     @include block-align(middle);
   }
 
-  &__links {
-    float: right;
-    li {
-      @include font-size(1);
-      @include rem(margin-left, 1);
-      @include block-align(middle);
 
-      a {
-        text-decoration: none;
-        color: $c-white;
-        @include rem(padding, 1, 0);
-        &:hover {
-          text-decoration: underline;
-        }
-      }
-    }
+
+  ul {
+  	float: right;
   }
+
+  ul a {
+  	display:block;
+  	color: #aaa;
+  	text-decoration:none;
+  	font-weight:700;
+  	font-size:12px;
+  	line-height:32px;
+  	padding:0 15px;
+  }
+
+  ul li {
+  	position:relative;
+  	float:left;
+    @include rem(margin-left, 1);
+  }
+
+  ul li.current-menu-item {
+  	background:#333;
+  }
+
+  ul li:hover {
+  	background:#333;
+  }
+
+  ul ul {
+  	display:none;
+  	position:absolute;
+  	top:100%;
+  	left:0;
+  	background:#222;
+  	padding:0
+  }
+
+  ul ul li {
+  	float:none;
+  	width:200px;
+    @include rem(margin-left, 0);
+  }
+
+  ul ul a {
+  	line-height:120%;
+  	padding:10px 15px
+  }
+
+  ul ul ul {
+  	top:0;
+  	left:100%
+  }
+
+  ul li:hover > ul {
+  	display:block
+  }
+
 }

@@ -1,6 +1,6 @@
 ---
 layout: home
-title: League
+title: Leagues
 excerpt:
 tags:
 ---

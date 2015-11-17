@@ -9,7 +9,7 @@
             data-srcset="/images/logos/logo--nav.png 1x, /images/logos/logo--nav@2x.png 2x, /images/logos/logo--nav@3x.png 3x"  />
 				</a>
 			</div>
-	    <ul class="navigation__links">
+	    <!-- <ul class="navigation__links">
 	        {% for link in site.data.navigation %}
 			    {% if link.url contains 'http' %}
 			        {% assign domain = '' %}
@@ -17,6 +17,29 @@
 			        {% assign domain = site.url %}
 			    {% endif %}
 			    <li><a href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank"{% endif %}>{{ link.title }}</a></li>
+			{% endfor %}
+	    </ul> -->
+
+
+			<ul>
+	        {% for link in site.data.navigation %}
+			    {% if link.url contains 'http' %}
+			        {% assign domain = '' %}
+			        {% else %}
+			        {% assign domain = site.url %}
+			    {% endif %}
+			    <li {%if link.title == page.title %}class="current-menu-item"{% endif %}>
+						<a href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank"{% endif %}>{{ link.title }}</a>
+						{% if link.suburls.length != 0 %}
+							<ul>
+							{% for suburl in link.suburls %}
+								<li {%if suburl.title == page.title %}class="current-menu-item"{% endif %}>
+									<a href="{{suburl.url}}">{{suburl.title}}</a>
+								</li>
+							{% endfor %}
+							</ul>
+						{% endif %}
+					</li>
 			{% endfor %}
 	    </ul>
 		</div>
