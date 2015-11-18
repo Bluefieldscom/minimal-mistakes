@@ -1,12 +1,12 @@
 - title: Leagues
   url: /leagues/
-  # suburls:
-  #   - url: "autopilot"
-  #     title: "Autopilot"
-  #   - url: "messaging"
-  #     title: "Messaging"
-  #   - url: "listing"
-  #     title: "Listing"
+  suburls:
+    - url: "autopilot"
+      title: "Autopilot"
+    - url: "messaging"
+      title: "Messaging"
+    - url: "listing"
+      title: "Listing"
 
 - title: Request an Invite
   url: /leagues/request-invite/
