@@ -14,25 +14,21 @@
     	<a class="mobile-target" href="#" title="Hide navigation">Menu</a>
 
 			<ul class="navigation__links">
-	        {% for link in site.data.navigation %}
-			    {% if link.url contains 'http' %}
-			        {% assign domain = '' %}
-			        {% else %}
-			        {% assign domain = site.url %}
-			    {% endif %}
-			    <li {%if link.title == page.title %}class="current-menu-item"{% endif %}>
-						<a href="{{ link.url }}" {% if link.url contains 'http' %}target="_blank"{% endif %}>{{ link.title }}</a>
-
-						{% if link.suburls.size > 0 %}
-							<ul>
-							{% for suburl in link.suburls %}
-								<li {%if suburl.title == page.title %}class="current-menu-item"{% endif %}>
-									<a href="{{ link.url }}{{suburl.url}}">{{suburl.title}}</a>
-								</li>
-							{% endfor %}
-							</ul>
-						{% endif %}
-					</li>
+	    {% for link in site.data.navigation %}
+		    <li
+				{%if link.title == page.title %}class="current-menu-item"{% endif %}
+				{% for suburl in link.suburls %}{%if suburl.title == page.title %}class="current-menu-item"{% endif %}{% endfor %} >
+					<a href="{{ link.url }}" {% if link.url contains 'http' %}target="_blank"{% endif %}>{{ link.title }}</a>
+					{% if link.suburls.size > 0 %}
+						<ul>
+						{% for suburl in link.suburls %}
+							<li {%if suburl.title == page.title %}class="current-menu-item"{% endif %}>
+								<a href="{{ link.url }}{{suburl.url}}" {% if link.url contains 'http' %}target="_blank"{% endif %}>{{suburl.title}}</a>
+							</li>
+						{% endfor %}
+						</ul>
+					{% endif %}
+				</li>
 			{% endfor %}
 	    </ul>
 		</div>

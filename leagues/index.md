@@ -35,7 +35,7 @@ tags:
                 data-srcset="/images/graphics/graphic--iphone-notifications.png 1x, /images/graphics/graphic--iphone-notifications@2x.png 2x, /images/graphics/graphic--iphone-notifications@3x.png 3x"  />
               <h3>{{site.data.copy.league.benefits.autopilot.title}}</h3>
               <p>{{site.data.copy.league.benefits.autopilot.description}}</p>
-              <a href="/leagues/autopilot">{{site.data.copy.league.benefits.autopilot.link}}</a>
+              <!-- <a href="/leagues/autopilot">{{site.data.copy.league.benefits.autopilot.link}}</a> -->
           </li>
           <li class="benefit">
               <img
@@ -44,7 +44,7 @@ tags:
                 data-srcset="/images/graphics/graphic--iphone-messaging.png 1x, /images/graphics/graphic--iphone-messaging@2x.png 2x, /images/graphics/graphic--iphone-messaging@3x.png 3x"  />
               <h3>{{site.data.copy.league.benefits.messaging.title}}</h3>
               <p>{{site.data.copy.league.benefits.messaging.description}}</p>
-              <a href="/leagues/messaging">{{site.data.copy.league.benefits.messaging.link}}</a>
+              <!-- <a href="/leagues/messaging">{{site.data.copy.league.benefits.messaging.link}}</a> -->
           </li>
           <li class="benefit">
               <img
@@ -53,7 +53,7 @@ tags:
                 data-srcset="/images/graphics/graphic--iphone-league-listing.png 1x, /images/graphics/graphic--iphone-league-listing@2x.png 2x, /images/graphics/graphic--iphone-league-listing@3x.png 3x"  />
               <h3>{{site.data.copy.league.benefits.listing.title}}</h3>
               <p>{{site.data.copy.league.benefits.listing.description}}</p>
-              <a href="/leagues/listing">{{site.data.copy.league.benefits.listing.description}}</a>
+              <!-- <a href="/leagues/listing">{{site.data.copy.league.benefits.listing.description}}</a> -->
           </li>
         </ul>
 
