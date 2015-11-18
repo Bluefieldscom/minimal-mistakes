@@ -14,11 +14,11 @@
 
 
 
-  ul {
+  &__links {
   	float: right;
   }
 
-  ul a {
+  &__links a {
   	display:block;
   	color: #aaa;
   	text-decoration:none;
@@ -28,21 +28,21 @@
   	padding:0 15px;
   }
 
-  ul li {
+  &__links li {
   	position:relative;
   	float:left;
     @include rem(margin-left, 1);
   }
 
-  ul li.current-menu-item {
+  &__links li.current-menu-item {
   	background:#333;
   }
 
-  ul li:hover {
+  &__links li:hover {
   	background:#333;
   }
 
-  ul ul {
+  &__links ul {
   	display:none;
   	position:absolute;
   	top:100%;
@@ -51,24 +51,88 @@
   	padding:0
   }
 
-  ul ul li {
+  &__links ul li {
   	float:none;
   	width:200px;
     @include rem(margin-left, 0);
   }
 
-  ul ul a {
+  &__links ul a {
   	line-height:120%;
   	padding:10px 15px
   }
 
-  ul ul ul {
+  &__links ul ul {
   	top:0;
   	left:100%
   }
 
-  ul li:hover > ul {
+  &__links li:hover > ul {
   	display:block
   }
 
+  .mobile-target {
+    display: none;
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 10px 15px;
+    border-radius: 6px;
+    top: 0;
+    position: absolute;
+    top: 50%;
+    right: 0rem;
+    transform: translateY(-50%);
+  }
+
+  &:target .mobile-target {
+    background: #333;
+  }
+
+
+  @include respond-to(handhelds) {
+
+    .mobile-target{
+      display: none;
+    }
+
+    &:not( :target ) .mobile-target:first-of-type,
+    &:target .mobile-target:last-of-type {
+      display: block;
+    }
+
+    &:target {
+      .navigation__links {
+        display: block;
+      }
+    }
+
+    &__links {
+      position: absolute;
+      float: none;
+      top: 51px;
+      display: none;
+      left: -1rem;
+      right: -1rem;
+
+      li {
+        width: 100%;
+        float: none;
+        margin: 0;
+        background: #222;
+        a {
+          line-height:120%;
+        	padding:20px 15px;
+        }
+      }
+
+      ul {
+        position: relative;
+        li {
+          width: 100%;
+          background: #111
+        }
+      }
+    }
+  }
 }
